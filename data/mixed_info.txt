@@ -1,0 +1,779 @@
+SN	A-Level Subject Combination	Symbol
+1	History, Geography And Kiswahili	HGK
+2	History, Geography And English Language	HGL
+3	History, Geography And French	HGF
+4	History, Kiswahili And English Language	HKL
+5	History, Geography And Arabic	HGAR
+6	History, Geography And Chinese	HGCH
+7	History, Geography And Economics	HGE
+8	History, Geography And Fasihi Ya Kiswahili	HGFA
+9	History, Geography And Literature In English	HGLI
+10	Kiswahili, English Language And French	KLF
+11	Kiswahili, English Language And Arabic	KLAR
+12	Kiswahili, English Language And Chinese	KLCH
+13	Kiswahili, Arabic And Chinese	KARCH
+14	Kiswahili, Arabic And French	KARF
+15	English Language, French And Arabic	LFAR
+16	English Language, French And Chinese	LFCH
+17	French, Arabic And Chinese	FARCH
+18	History, English Language And French	HLF
+19	History, English Language And Arabic	HLAR
+20	History, English Language And Chinese	HLCH
+21	Economics, Business Studies And Accountancy	EBUAC
+22	Economics, Geography And Mathematics	EGM
+23	Economics, Commerce And Accountancy	ECAC
+24	Economics, Computer Science And Mathematics	ECSM
+25	Business Studies, Accountancy And Computer Science	BUACCS
+26	Business Studies, Accountancy And Mathematics	BUACM
+27	Economics, Business Studies And Islamic Knowledge	EBUI
+28	Physics, Chemistry And Mathematics	PCM
+29	Physics, Chemistry And Biology	PCB
+30	Physics, Geography And Mathematics	PGM
+31	Chemistry, Biology And Geography	CBG
+32	Physics, Mathematics And Computer Science	PMCS
+33	Chemistry, Biology And Agriculture	CBA
+34	Chemistry, Biology And Food And Human Nutrition	CBN
+35	Biology, Food And Human Nutrition And Sports	BNS
+36	English Language, Music And Sports	LMS
+37	Kiswahili, Music And Sports	KMS
+38	Fasihi Ya Kiswahili, Music And Sports	FAMS
+39	Literature In English, Music And Sports	LIMS
+40	French, Music And Sports	FMS
+41	Arabic, Music And Sports	ARMS
+42	Kiswahili, English Language And Theatre Arts G	KLT
+43	Kiswahili, French And Theatre Arts	KFT
+44	Fasihi Ya Kiswahili, English Language And Theatre Arts	FALT
+45	Kiswahili, Literature In English And Theatre Arts	KLIT
+46	Kiswahili, English Language And Music	KLM
+47	Kiswahili, French And Music	KFM
+48	Fasihi Ya Kiswahili, English Language And Music	FALM
+49	Kiswahili, Literature In English And Music	KLIM
+50	Kiswahili, English Language And Fine Art	KLFI
+51	Kiswahili, French And Fine Art	KFFI
+52	Fasihi Ya Kiswahili, English Language And Fine Art	FALFI
+53	Kiswahili, Literature In English And Fine Art	KLIFI
+54	Kiswahili, Textile And Garment Construction And Fine Art	KTEFI
+55	English Language, Textile And Garment Construction And Fine Art	LTEFI
+56	Arabic, Textile And Garment Construction And Fine Art	ARTEFI
+57	Chinese, Textile And Garment Construction And Fine Art	CHITEFI
+58	Islamic Knowledge, History And Geography	IHG
+59	Divinity, History And Geography	DHG
+60	Islamic Knowledge, History And Arabic	IHAR
+61	Divinity, History And English Language	DHL
+62	Islamic Knowledge, History And English Language	IHL
+63	Divinity, History And Kiswahili	DHK
+64	Islamic Knowledge, History And Kiswahili	IHK
+65	Divinity, Kiswahili And English Language	DKL
+A Level Subject Combinations in Tanzania
+
+1. PCM – (Physics, Chemistry, Advanced Mathematics)
+This combination is an ideal combination for students who have a strong interest in pursuing a career in engineering, physics, or mathematics. This combination provides a comprehensive understanding of core scientific principles and equips students with the necessary skills and knowledge to excel in rigorous engineering or science degrees.
+
+Physics, as part of the PCM combination, covers the study of matter, energy, and the fundamental forces of nature. It involves exploring the behavior of the physical world through mathematical models and experimental observations.
+
+Chemistry, on the other hand, delves into the composition, structure, properties, and changes of matter. It also involves the study of the interactions between different types of matter and the energy changes that accompany these processes.
+
+Advanced Mathematics is an essential component of PCM, as it provides students with a deep understanding of mathematical concepts and techniques that are crucial for solving complex scientific and engineering problems. Topics covered in advanced mathematics may include calculus, differential equations, linear algebra, and more.
+
+Overall, PCM offers a strong foundation in scientific principles and analytical skills, making it an excellent choice for students who aspire to pursue careers in fields that require a deep understanding of the physical world and its underlying mathematical principles.
+
+2. PCB- (Physics, Chemistry, Biology)
+The combination of Physics, Chemistry, and Biology (PCB) is ideal for students who have a keen interest in pursuing a career in medicine, pharmacy, or any other health-related field. This combination provides a strong foundation in the sciences and is essential for understanding the principles behind medical and pharmaceutical practices.
+
+It requires dedication, critical thinking, and a strong aptitude for scientific inquiry. Students who pursue this combination will be well-prepared for further studies in medical or health-related fields.
+
+3. PGM – (Physics, Geography and Advanced Mathematics)
+PGM A Level Subject Combination is designed for students who have a keen interest in pursuing a career in geology, geography, or any other earth science-related field. This combination is well-suited for those who enjoy challenging themselves with a rigorous curriculum that emphasizes a strong foundation in mathematics and science.
+
+By studying Physics, students will gain an understanding of the fundamental principles governing the behavior of matter and energy in the natural world. Geography will provide them with knowledge about the Earth’s landscapes, environments, and the relationships between people and their environments. Advanced Mathematics will further enhance their quantitative and analytical skills, allowing them to tackle complex problems in the field of earth sciences.
+
+Overall, the PGM combination offers a comprehensive and interdisciplinary approach to preparing students for a future in geology, geography, or other earth science-related professions.
+
+4. HGL – (History, Geography, Language)
+HGL is a timeless combination that cultivates critical thinking, communication skills, and an understanding of the world around us. History offers valuable lessons from the past, while geography sheds light on diverse cultures and societies. Choose your preferred language (English, Kiswahili, or French) to complete the trifecta.
+
+5. ECA – (Economics, Commerce, Accounting)
+Calling all future business leaders! This combination equips students with the financial and commercial acumen to navigate the dynamic world of business. Hone student’s analytical skills, decision-making prowess, and entrepreneurial spirit.
+
+6. HKL – (History, Kiswahili, Language)
+This A Level Subject Combination is perfect for students who are interested in pursuing a career in social sciences, history, or any other humanities-related field. It is a challenging combination that requires a strong foundation in language and social sciences.
+
+7. EGM – (Economics, Geography, Advanced Mathematics)
+EGM combination is a well-suited choice for students who have a keen interest in pursuing a career in economics, geography, or any other social science-related field. This combination offers a challenging curriculum that demands a solid understanding of mathematics and economics. Students who opt for this combination will have the opportunity to delve into the intricate relationships between economic principles and geographic factors, providing them with a comprehensive understanding of how these disciplines intersect.
+
+Additionally, the advanced mathematics component of this combination will equip students with the quantitative skills necessary to analyze and interpret complex economic and geographic data. Overall, the EGM combination is an excellent choice for students who are passionate about delving into the complexities of economic and geographic systems.
+
+8. CBG – (Chemistry, Biology, Geography)
+CBG is perfect for students who are interested in pursuing a career in environmental science, biology, or any other science-related field. It is a challenging combination that requires a strong foundation in science.
+
+9. PMC – (Physics, Advanced Mathematics, Computer Science)
+This combination is ideal for students aiming to build a career in computer science, engineering, or any other technology-related field. This combination is designed to provide a comprehensive understanding of the fundamental principles in physics, advanced mathematical concepts, and computer science skills.
+
+Students who opt for this combination should be prepared for a rigorous academic experience that demands a solid grasp of mathematics and science. This combination can open up opportunities for careers in software development, data analysis, engineering, research, and various other technology-driven fields.
+
+10. HGK – (History, Geography, Kiswahili)
+This combination is ideal for students who have a keen interest in pursuing a career in social sciences, history, or any other humanities-related field. It is a challenging combination that requires a strong foundation in language and social sciences.
+
+History provides an understanding of past events and their impact on society, while Geography offers insights into the physical environment and its relationship with human activities. Kiswahili, as a language subject, enhances communication skills and cultural understanding, particularly in the context of East Africa where it is widely spoken.
+
+Students who choose HGK as their A Level Subject Combination will develop critical thinking, research, and analytical skills, which are essential for success in fields related to social sciences and humanities. This combination opens up opportunities for careers in fields such as education, research, international relations, and cultural preservation.
+
+11. HGE- (History, Geography, Economics)
+The HGE A Level Subject Combination offers a comprehensive approach to understanding the world by integrating the disciplines of History, Geography, and Economics. This interdisciplinary approach allows students to analyze historical events with a focus on economic and geographical factors, providing a well-rounded perspective on the forces shaping our world.
+
+This interdisciplinary combination equips students with a holistic perspective on global issues, preparing them for careers in international relations, development, public policy, and other fields where a comprehensive understanding of historical, geographical, and economic factors is essential.
+
+12. CBA – (Chemistry biology and agriculture)
+This combination caters to those who are very interested in life sciences and their applications in agriculture. Immerse yourself in the chemical and biological processes that drive sustainable food production, preparing you for a career in agricultural research, food science or environmental management.
+
+13. CBN – (Chemistry, Biology, Food and Human Nutrition)
+CBN is ideal for students who are interested in pursuing a career in nutrition, food science, or any other health-related field. It is a challenging combination that requires a strong foundation in science.
+
+14. PeBFa – (Physical Education, Biology and Fine Arts)
+This one is perfect for students who are interested in pursuing a career in sports, fine arts, or any other related field. It is a challenging combination that requires a strong foundation in physical education and fine arts.
+
+15. KLF – (Kiswahili, English Language and French)
+This combination is perfect for students who want to pursue a career in languages, literature, or any other humanities-related field. It is a demanding combination that necessitates a solid understanding of language and literature.
+
+16. KEC- (Kiswahili, English and Chinese)
+This combination is ideal for students who have a keen interest in languages, international relations, or any other related field.
+
+Studying Kiswahili, English, and Chinese provides a well-rounded understanding of different linguistic and cultural backgrounds, making it a valuable asset for careers in diplomacy, translation, interpretation, international business, and more.
+
+Students pursuing this combination will need to have a strong foundation in language skills, as well as a good understanding of social sciences to navigate the complexities of international relations and cross-cultural communication. It is a challenging combination that offers a broad range of opportunities for those who are passionate about languages and global connections.
+
+17. PeGE – (Physical Education, Geography, Economics)
+PeGE is a good A Level Subject Combination for students who are interested in pursuing a career in sports, geography, or any other related field. It is a challenging combination that requires a strong foundation in physical education and social sciences.
+
+18. HKF – (History, Kiswahili and French language)
+HKF – (History, Kiswahili, and French language) is a combination of subjects that offers a well-rounded and diverse education for students. The inclusion of History provides a broad understanding of the past, helping students to develop critical thinking skills and a deeper appreciation for the complexities of human societies.
+
+Kiswahili, as a language, offers students the opportunity to explore the rich culture and literature of East Africa, while also providing a valuable skill for communication in the region. Additionally, the study of French language opens doors to the vibrant cultures and histories of Francophone countries, as well as offering practical benefits in international business and diplomacy.
+
+This combination is ideal for students who have a passion for languages, literature, and humanities. It provides a strong foundation for further studies in fields such as linguistics, international relations, translation, education, and more. The skills and knowledge gained from HKF can also be applied to diverse career paths, including roles in research, writing, cultural exchange, and global communication. Overall, HKF offers a well-rounded and enriching educational experience that can open doors to a wide range of opportunities in the future.
+
+Choosing the Right A Level Subject Combinations
+When choosing the right A Level subject combinations, it’s important to consider a few key factors.
+
+First and foremost, consider your own interests and passions. What subjects truly spark your curiosity and motivate you? It’s important to choose subjects that you genuinely enjoy learning about, as this will make the studying process much more enjoyable.
+
+Additionally, it’s important to consider your future career aspirations. Research the entry requirements for your desired university courses and careers, and align your A Levels with those requirements. This will ensure that you are well-prepared for the path you wish to pursue after completing your A Levels.
+
+Furthermore, it’s important to consider your strengths and weaknesses. Choose subjects that leverage your strengths and provide opportunities to overcome your weaknesses. This will help you to excel in your studies and develop a well-rounded skill set.
+
+Lastly, seek guidance from teachers, career counselors, and seniors. They can provide valuable insights and advice based on their experiences and expertise. Consulting with others can help you make informed decisions about your A Level subject choices.
+
+Ultimately, the ideal A Level combination is as unique as you are, and by considering these factors, you can make a well-informed decision that aligns with your interests, aspirations, and strengths.
+
+_______________
+
+S/N    Registration No	Institute Name	Town	Status	 
+1	REG/EOS/040	Mabughai Community Development Technical Training Institute - Lushoto	Lushoto District Council	Full Registration	 
+2	REG/HAS/227	St. Theresa School of Nursing	Moshi Municipal Council	Full Registration	 
+3	REG/PWF/009	Eastern Africa Statistical Training Centre - Dar-es-salaam	Kinondoni Municipal Council	Full Registration	  
+4	REG/HAS/024	Kilimatinde Institute of Health and Allied Sciences	Manyoni District Council	Full Registration	  
+5	REG/SAT/037	Karuco College	Karagwe District Council	Full Registration	  
+6	REG/BTP/132	Shule ya Mafunzo ya Huduma	Morogoro District Council	Full Registration	  
+7	REG/SAT/006	Military School of Information and Communication Technology (msict)	Ilala Municipal Council	Full Registration	  
+8	REG/BTP/124	Institute of Professional and Innovational Development(ipid)	Chake Chake Distric	Full Registration	  
+9	REG/HAS/216	Mbalizi Institute of Health Sciences, Sunrise Campus - Mbozi	Mbozi District Council	Full Registration	  
+10	REG/BTP/144	Monduli Institute of Technology, Entrepreneurship and Cooperatives	Monduli District Council	Full Registration	  
+11	REG/SAT/61	East Africa College of Business	Temeke Municipal Council	Full Registration	  
+12	REG/HAS/184	Top one College of Health and Allied Sciences	Songea District Council	Full Registration	  
+13	REG/BMG/058	Kyela Polytechnic College - Mbeya	Kyela District Council	Full Registration	  
+14	REG/HAS/229	Kilenzi Memorial College of Health and Allied Sciences	Ubungo Municipal Council	Full Registration	  
+15	REG/SAT/056	Dar Es Salaam Regional Vocational and Services Centre	Temeke Municipal Council	Full Registration	  
+16	REG/HAS/014	Clinical Officers Training Centre Maswa	Maswa District Council	Full Registration	  
+17	REG/BTP/051	Tanzania Correctional Training Academy (tcta) - Dar Es Salaam	Ilala Municipal Council	Full Registration	  
+18	REG/BMG/029	Ngageya College of Business and Management - Dodoma	Dodoma Municipal Council	Full Registration	  
+19	REG/HAS/247P	Kilimanjaro Institute of Health Sciences	Arusha City Council	Provisional Registration	  
+20	REG/PWF/001	Institute of Rural Development Planning - Dodoma	Dodoma Municipal Council	Full Registration	  
+21	REG/SAT/027	Livestock Training Agency Mabuki Campus	Misungwi District Council	Full Registration	  
+22	REG/HAS/215	Taifa Institute of Health and Allied Sciences	Arusha District Council	Full Registration	  
+23	REG/EOS/031P	United Tanzania Aeronautics College - Chalinze	Bagamoyo District Council	Provisional Registration	  
+24	REG/HAS/129	Kilema College of Health Sciences	Moshi District Council	Full Registration	  
+25	REG/HAS/025	Kairuki School of Nursing	Kinondoni Municipal Council	Full Registration	  
+26	REG/HAS/108	Berega Institute of Health Sciences	Kilosa District Council	Full Registration	  
+27	REG/HAS/201	Janesa Institute of Health and Allied Sciences - Dodoma	Dodoma Municipal Council	Full Registration	  
+28	REG/HAS/065N	Ndanda College of Health and Allied Sciences	Masasi District Council	Full Registration	  
+29	REG/HAS/210P	Rafk College of Health and Allied Sciences	Ileje District Council	Preparatory Registration	  
+30	REG/PWF/036	Habari Maalum College (hmc)	Arusha District Council	Full Registration	  
+31	REG/SAT/033	Tanzania Gemological Centre	Arusha City Council	Full Registration	  
+32	REG/HAS/061	Lugalo Military Medical School	Kinondoni Municipal Council	Full Registration	  
+33	REG/HAS/249	Kolowa Technical Training Institution	Lushoto District Council	Full Registration	  
+34	REG/BTP/068	Tanzania Public Service College (tpsc) - Mbeya	Mbeya City Council	Full Registration	  
+35	REG/SAT/029	Mbalizi Polytechnic College - Mbeya	Mbeya District Council	Full Registration	  
+36	REG/BTP/059	Tanzania Institute of Accountancy (tia) - Kigoma Campus	Kigoma-Ujiji Municipal Council	Full Registration	  
+37	REG/HAS/050	Edgar Maranta Nursing School	Kilombero District Council	Full Registration	  
+38	REG/HAS/208	Buhongwa College of Health and Allied Sciences	Nyamagana Municipal Council	Full Registration	  
+39	REG/BTP/154	MAKUMIRA TRAINING INSTITUTE (MTI)	Arumeru District Council	Full Registration	  
+40	REG/SAT/060	Institute of Heavy Equipment and Technology	Kinondoni Municipal Council	Full Registration	  
+41	REG/PWF/005	Morogoro School of Journalism (msj)	Morogoro Municipal Council	Full Registration	  
+42	REG/SAT/046	Community Based Conservation Training Centre - Likuyu Sekamaganga	Namtumbo District Council	Full Registration	  
+43	REG/BMG/017	Institute of Tax Administration Dar-es-salaam	Kinondoni Municipal Council	Full Registration	  
+44	REG/EOS/020	National Sugar Institute - Kidatu	Kilosa District Council	Full Registration	  
+45	REG/BTP/053	College of Business Education - Mbeya Campus	Mbeya City Council	Full Registration	  
+46	REG/HAS/136N	Mchukwi Institute of Health and Allied Sciences	Rufiji District Council	Full Registration	  
+47	REG/HAS/002	Dodoma Institute of Health and Allied Sciences	Dodoma Municipal Council	Full Registration	  
+48	REG/BTP/140P	Institute of Public Administration - Pemba Campus	Chake Chake Distric	Provisional Registration	  
+49	REG/HAS/031-J	Muheza College of Health and Allied Sciences - Muheza	Muheza District Council	Full Registration	  
+50	REG/PWF/027	Community Development Training Institute - Uyole, Mbeya	Mbeya District Council	Full Registration
+51	REG/HAS/223P	Simiyu College of Health and Allied Sciences	Bariadi District Council	Provisional Registration	   
+52	REG/BTP/156P	Institute of Adult Education - Songea	Songea District Council	Provisional Registration	   
+53	REG/HAS/237	City College of Health and Allied Sciences - Arusha Campus	Arusha City Council	Full Registration	   
+54	REG/BTP/098P	Geita Institute of Business and Technology	Geita District Council	Provisional Registration	   
+55	REG/ANE/029	Kilimanjaro Institute of Technology and Management	Kinondoni Municipal Council	Full Registration	   
+56	REG/HAS/174P	Nyakahanga College of Health and Allied Sciences	Karagwe District Council	Provisional Registration	   
+57	REG/BMG/019	Eastern and Southern African Management Institute	Arusha City Council	Full Registration	   
+58	REG/SAT/043	Nlab Innovation Academy	Kinondoni Municipal Council	Full Registration	   
+59	REG/HAS/062	Mbozi School of Nursing	Mbozi District Council	Full Registration	   
+60	REG/HAS/265P	Elabs Institute of Health and Allied Sciences	Sengerema District Council	Provisional Registration	   
+61	REG/PWF/051	Mwanza Polytechnic Institute - Maswa	Maswa District Council	Full Registration	   
+62	REG/PWF/054	Nshambya Institute of Education	Bukoba Municipal Council	Full Registration	   
+63	REG/HAS/039	Clinical Officers Training Centre Kigoma	Kigoma-Ujiji Municipal Council	Full Registration	   
+64	REG/SAT/042	Msimbazi Centre Training Institute	Ilala Municipal Council	Full Registration	   
+65	REG/BTP/107	International Institute of Development and Medical Sciences	Dodoma Municipal Council	Full Registration	   
+66	REG/HAS/260	St. Kizito Mikumi Institute of Health and Allied Sciences	Kilosa District Council	Full Registration	   
+67	REG/HAS/200	Southern Highlands College of Health and Allied Sciences - Mbeya	Mbeya City Council	Full Registration	   
+68	REG/ANE/012	Ministry of Agriculture Training Institute Ukiriguru- Mwanza	Misungwi District Council	Full Registration	   
+69	REG/BTP/014	Zanzibar Law Resource Centre - Zanzibar	Magharibi District	Full Registration	   
+70	REG/SAT/018	Dabaga Institute of Agriculture - Kilolo, Iringa	Kilolo District Council	Full Registration	   
+71	REG/HAS/233	Zango College of Health and Allied Sciences	Temeke Municipal Council	Full Registration	   
+72	REG/HAS/248	Imperial College of Health and Allied Sciences	Mjini District	Full Registration	   
+73	REG/HAS/078	Bagamoyo School of Nursing	Bagamoyo District Council	Full Registration	   
+74	REG/HAS/091	Kiomboi School of Nursing	Iramba District Council	Full Registration	   
+75	REG/HAS/228	Kibondo Clinical Officers Training Centre	Kibondo District Council	Full Registration	   
+76	REG/HAS/087	Machame Health Training Institute	Hai District Council	Full Registration	   
+77	REG/HAS/185	Mlimba Institute of Health and Allied Science	Kilombero District Council	Full Registration	   
+78	REG/HAS/254	Sir Edward College of Health and Allied Sciences	Kinondoni Municipal Council	Full Registration	   
+79	REG/SAT/059	Marine Police College - Mwanza	Nyamagana Municipal Council	Provisional Registration	   
+80	REG/BTP/075	School of Library, Archives and Documentation Studies (slads) - Dar Es Salaam Campus	Ilala Municipal Council	Full Registration	   
+81	REG/HAS/246P	Jelly's Institute of Health and Allied Sciences	Ilemela Municipal Council	Provisional Registration	   
+82	REG/HAS/005	Ilembula Institute of Health and Allied Sciences	Wanging'ombe District Council	Full Registration	   
+83	REG/HAS/027	Mbulu School of Nursing	Mbulu District Council	Full Registration	   
+84	REG/HAS/121	Biharamulo Health Sciences Training College	Biharamulo District Council	Full Registration	   
+85	REG/HAS/151C	Bwima Institute of Health and Allied Sciences	Ilemela Municipal Council	Full Registration	   
+86	REG/HAS/203P	Becus Health Training Centre	Mafinga Town Counci	Provisional Registration	   
+87	REG/HAS/020	Tosamaganga Institute of Health and Allied Sciences	Iringa Municipal Council	Full Registration	   
+88	REG/BTP/092P	St Thomas Institute of Management and Technology - Msata	Bagamoyo District Council	Provisional Registration	   
+89	REG/HAS/258P	Mufo College of Health and Allied Sciences	Temeke Municipal Council	Provisional Registration	   
+90	REG/HAS/192	Nobo College of Pharmacy	Ilala Municipal Council	Full Registration	   
+91	REG/HAS/009	Ndolage Institute of Health Sciences	Muleba District Council	Full Registration	   
+92	REG/SAT/036	Mahinya College of Sustainable Agriculture	Namtumbo District Council	Full Registration	   
+93	REG/HAS/098	Kiuma College of Health and Allied Sciences	Tunduru District Council	Full Registration	   
+94	REG/ANE/004	Pasiansi Wildlife Training Institute - Mwanza	Ilemela Municipal Council	Full Registration	   
+95	REG/PWF/020	Agency for The Development of Educational Management - Bagamoyo	Bagamoyo District Council	Full Registration	   
+96	REG/BTP/049	Tanzania Public Service College - Tanga	Tanga City Council	Full Registration	   
+97	REG/EOS/029	Unique Academy	Ilala Municipal Council	Full Registration	   
+98	REG/SAT/001	Kilimanjaro Agricultural Training Centre - Moshi	Moshi District Council	Full Registration	   
+99	REG/HAS/119	Archbishop John Ramadhan School of Nursing	Korogwe Town Counci	Full Registration	   
+100	REG/HAS/003	Tanzanian Training Centre for International Health	Kilombero District Council	Full Registration
+101	REG/HAS/232	City College of Health and Allied Sciences - Mwanza Campus	Magu District Council	Full Registration	   
+102	REG/PWF/032	Dar Es Salaam Police Academy	Temeke Municipal Council	Full Registration	   
+103	REG/ANE/019	Forest Industries Training Institute (fiti)	Moshi Municipal Council	Full Registration	   
+104	REG/TLF/056	St. Aggrey Institute of Education	Mbeya City Council	Full Registration	   
+105	REG/BTP/086P	Triple J Institute of Social Studies	Arumeru District Council	Full Registration	   
+106	REG/ANE/036	Mt. Maria Goretti Agriculture Training Institute	Kilolo District Council	Full Registration	   
+107	REG/HAS/234	Medical Missionaries of Mary School of Pharmaceutical Sciences	Arusha City Council	Full Registration	   
+108	REG/BTP/138P	Kibaha Berea Adventist Institute	Kibaha District Counci	Provisional Registration	   
+109	REG/ANE/011	Ministry of Agriculture Training Instiute Ilonga - Kilosa	Kilosa District Council	Full Registration	   
+110	REG/BTP/020	Amani College of Management and Technology (acmt) - Njombe	Njombe District Council	Full Registration	   
+111	REG/PWF/042	Tanzania Institute of Project Management (tipm) - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+112	REG/SAT0/47	Jema Institute of Technology	Nyamagana Municipal Council	Full Registration	   
+113	REG/HAS/001	Primary Health Care Institute	Iringa Municipal Council	Full Registration	   
+114	REG/HAS/219P	Mpanda College of Health and Allied Sciences	Mpanda Town Council	Provisional Registration	   
+115	REG/BTP/093	Wete Institute of Academic Research and Consultancy - Pemba	Wete District	Full Registration	   
+116	REG/HAS/194	Santamaria Institute of Health and Allied Sciences	Kinondoni Municipal Council	Full Registration	   
+117	REG/BTP/008	St. Thomas Institute of Management and Technology - Songea	Songea District Council	Full Registration	   
+118	REG/PWF/007	Rungemba Community Development Training Institute (cdti)	Mufindi District Council	Full Registration	   
+119	REG/BMG/001	Institute of Finance Management - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+120	REG/HAS/101-J	Muhimbili College of Health and Allied Sciences	Ilala Municipal Council	Full Registration	   
+121	REG/BTP/117P	St Joseph College - Singida Campus	Singida District Council	Provisional Registration	   
+122	REG/HAS/139	City College of Health and Allied Sciences	Temeke Municipal Council	Full Registration	   
+123	REG/BMG/046	St. Joseph's College, The Institute of Business and Management - Morogoro	Morogoro Municipal Council	Full Registration	   
+124	REG/PWF/011	Buhare Community Development Training Institute- Musoma	Musoma Municipal Council	Full Registration	   
+125	REG/SAT/004	Livestock Training Agency Temeke - Dar Es Salaam Campus	Temeke Municipal Council	Full Registration	   
+126	REG/HAS/067	Kisare College of Health Sciences	Serengeti District Council	Full Registration	   
+127	REG/HAS/114	Yohana Wavenza Health Institute	Mbozi District Council	Full Registration	   
+128	REG/TLF/064	Monduli Teachers College	Monduli District Council	Full Registration	   
+129	REG/HAS/117	Tandabui Institute of Health Sciences and Technology	Nyamagana Municipal Council	Full Registration	   
+130	REG/BTP/153	Triple J Sound and Music College - Mbeya	Mbeya City Council	Full Registration	   
+131	REG/BTP/145	Polytechnic Institute of Songea	Songea District Council	Full Registration	   
+132	REG/TLF/004	Hagafilo College of Development Management	Njombe District Council	Full Registration	   
+133	REG/HAS/209	Victory Health and Allied Sciences College	Tabora Municipal Council	Full Registration	   
+134	REG/EOS/037	University of Dar Es Salaam Computing Centre - Dodoma	Dodoma Municipal Council	Full Registration	   
+135	REG/TLF/105	Rukwa Institute of Business Management	Sumbawanga Municipal Council	Full Registration	   
+136	REG/HAS/030	Same School of Nursing	Same District Council	Full Registration	   
+137	REG/BMG/009	Tanzania Public Service College - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+138	REG/ANE/034N	Tabora East Africa Polytechnic College - Tabora	Tabora Municipal Council	Full Registration	   
+139	REG/HAS/118	Besha Health Training Institute	Tanga City Council	Full Registration	   
+140	REG/BTP/012	National Defence College (tanzania) - Dar-es-salaam	Kinondoni Municipal Council	Full Registration	   
+141	REG/BMG/032	Western Tanganyika College - Kigoma	Kigoma District Council	Full Registration	   
+142	REG/HAS/259	Charlotte Institute of Health and Allied Sciences - Siha	Siha District Council	Full Registration	   
+143	REG/HAS/212	Nyaishozi College of Health and Allied Sciencies	Kinondoni Municipal Council	Full Registration	   
+144	REG/HAS/007	Kilosa Clinical Officers Training Centre	Kilosa District Council	Full Registration	   
+145	REG/HAS/264	Hisani Institute of Health and Allied Sciences	Korogwe Town Counci	Full Registration	   
+146	REG/HAS/168	Kigamboni City College of Health and Allied Sciences	Kigamboni Municipal Council	Full Registration	   
+147	REG/EOS/006	Civil Aviation Training Centre	Ilala Municipal Council	Full Registration	   
+148	REG/HAS/080	Singida College of Health Sciences and Technology	Singida District Council	Full Registration	   
+149	REG/ANE/001	Livestock Training Agency Tengeru Campus	Arusha District Council	Full Registration	   
+150	REG/BTP/123	The Mwalimu Nyerere Memorial Academy - Pemba	Chake Chake Distric	Full Registration
+
+151	REG/HAS/256	Manyara Institute of Health and Allied Sciences	Babati Town Counci	Full Registration	   
+152	REG/HAS/250	Excellent College of Health and Allied Sciences - Kibaha	Kibaha District Counci	Full Registration	   
+153	REG/BTP/143P	Al-haramain Professional College	Ilala Municipal Council	Provisional Registration	   
+154	REG/BTP/208	Cardinal Rugambwa Memorial College	Bukoba Municipal Council	Full Registration	   
+155	REG/BTP/084	Tusaale Business and Planning College	Mufindi District Council	Full Registration	   
+156	REG/BTP/202	Taifa College of Technology	Arusha City Council	Full Registration	   
+157	REG/HAS/037	Mbeya College of Health and Allied Sciences	Mbeya City Council	Full Registration	   
+158	REG/HAS/230	Songea Smart Professional College	Songea District Council	Full Registration	   
+159	REG/BTP/083	Landmark Institute of Education Science and Technology	Geita District Council	Full Registration	   
+160	REG/HAS/242	Mayday Institute of Health Sciences and Technology	Chato District Council	Full Registration	   
+161	REG/HAS/016N	Lindi College of Health and Allied Sciences	Lindi Municipal Counci	Full Registration	   
+162	REG/ANE/031	Institute of Environment, Climate and Development Sustainability - Dar Es Salaam	Kinondoni Municipal Council	Full Registration	   
+163	REG/HAS/263	Buhongwa College of Health and Allied Sciences - Usagara	Nyamagana Municipal Council	Full Registration	   
+164	REG/BTP/139P	Grand Institute of Business Studies	Ilemela Municipal Council	Provisional Registration	   
+165	REG/SAT/039	St. Bernard College of Business Administration and Technology	Singida District Council	Full Registration	   
+166	REG/PWF/041	Tanzania Research and Career Development Institute (tracdi) - Dodoma	Dodoma Municipal Council	Full Registration	   
+167	REG/HAS/160	Pemba School of Health Sciences	Wete District	Full Registration	   
+168	REG/PWF/043	Institute of Rural Development Planning - Mwanza	Magu District Council	Full Registration	   
+169	REG/PWF/039	Centre for Foreign Relations (cfr) - Dar-es-salaam	Temeke Municipal Council	Full Registration	   
+170	REG/PWF/026	Monduli Community Development Training Institute	Monduli District Council	Full Registration	   
+171	REG/PWF/019	Malya College of Sports Development	Kwimba District Council	Full Registration	   
+172	REG/BTP/067	Tanzania Public Service College - Mtwara	Mtwara District Council	Full Registration	   
+173	REG/HAS/035	Peramiho School of Nursing	Songea District Council	Full Registration	   
+174	REG/ANE/002	Fisheries Education and Training Agency (feta) Mbegani	Bagamoyo District Council	Full Registration	   
+175	REG/HAS/251	Excellent College of Health and Allied Sciences - Mwanza Campus	Nyamagana Municipal Council	Full Registration	   
+176	REG/SAT/011	Mamre Agriculture and Livestock College	Wanging'ombe District Council	Full Registration	   
+177	REG/HAS/055N	Sumbawanga College of Health and Allied Sciences	Sumbawanga Municipal Council	Full Registration	   
+178	REG/HAS/113	Karatu Health Training Institute	Karatu District Council	Full Registration	   
+179	REG/HAS/023D	Kabanga School of Nursing	Kasulu District Council	Full Registration	   
+180	REG/BMG/020	Local Government Training Institute Hombolo - Dodoma	Dodoma Municipal Council	Full Registration	   
+181	REG/BTB/128	Morogoro Vocational Teachers Training College - Morogoro	Morogoro Municipal Council	Full Registration	   
+182	REG/ANE/028	Visele Live-crop Skills Training Centre	Mpwapwa District Council	Full Registration	   
+183	REG/HAS/190	Imani College of Health and Allied Sciences	Rorya District Council	Full Registration	   
+184	REG/HAS/017	Rubya Health Training Institute	Muleba District Council	Full Registration	   
+185	REG/BTP/121P	Biharamulo College of Business and Technology	Biharamulo District Council	Provisional Registration	   
+186	REG/BTP/118	Institute of Finance Management - Dodoma Campus	Dodoma Municipal Council	Full Registration	   
+187	REG/BTP/047	Arusha Institute of Business Studies	Arusha City Council	Full Registration	   
+188	REG/BTP/129P	Bestway Institute of Business	Kinondoni Municipal Council	Provisional Registration	   
+189	REG/BMG/040	Law School of Tanzania	Ubungo Municipal Council	Full Registration	   
+190	REG/BTP/080P	Zoom Polytechnic Institute Bukoba	Bukoba Municipal Council	Full Registration	   
+191	REG/HAS/158	Chato College of Health Sciences and Technology	Chato District Council	Full Registration	   
+192	REG/HAS/090	St. Gaspar College of Health and Allied Sciences	Singida District Council	Full Registration	   
+193	REG/BTP/095	Samail College of Technology and Industry - Chakechake, Pemba	Chake Chake Distric	Full Registration	   
+194	REG/HAS/021	Tukuyu School of Nursing	Rungwe District Council	Full Registration	   
+195	REG/PWF/034	Tanzania Police School - Moshi	Moshi District Council	Full Registration	   
+196	REG/HAS/053	Bulongwa Health Sciences Institute	Makete District Council	Full Registration	   
+197	REG/HAS/167	Faraja Health Training Institute	Moshi District Council	Full Registration	   
+198	REG/SAT/055	Vikindu Catholic Polytechnic College	Mkuranga District Council	Full Registration	   
+199	REG/BMG/002	Institute of Accountancy Arusha (iaa) - Arusha	Arusha District Council	Full Registration	   
+200	REG/BTP/022	Institute of Accountancy Arusha (iaa) - Dar Es Salaam Campus	Kinondoni Municipal Council	Full Registration	 
+201	REG/HAS/034	Kagemu School of Environmental Health Sciences	Bukoba District Council	Full Registration	   
+202	REG/HAS/207	Vignan Institute of Science and Technology	Kinondoni Municipal Council	Full Registration	   
+203	REG/ANE/015	National College of Tourism (nct) - Temeke	Temeke Municipal Council	Full Registration	   
+204	REG/HAS/188P	Apple Valley Institute of Health Sciences and Technology	Kigamboni Municipal Council	Provisional Registration	   
+205	REG/SAT/048P	Komu College of Technology and Management	Mbeya City Council	Provisional Registration	   
+206	REG/PWF/028	Ruaha Community Development Training Institute	Iringa Municipal Council	Full Registration	   
+207	REG/HAS/043	Newala School of Nursing	Newala District Council	Full Registration	   
+208	REG/TLF/143P	Agency for the Development of Educational Management - Mbeya	Mbeya City Council	Full Registration	   
+209	REG/EOS/015	Misungwi Community Development Technical Training Institute-mwanza	Misungwi District Council	Full Registration	   
+210	REG/HAS/157	Tabora Institute	Nzega District Council	Full Registration	   
+211	REG/ANE/005	Ministry of Agriculture Training Institute Uyole - Mbeya	Mbeya City Council	Full Registration	   
+212	REG/BMG/023	College of Business Education - Mwanza	Ilemela Municipal Council	Full Registration	   
+213	REG/EOS/025	National Meteorological Training Centre - Kigoma	Kigoma-Ujiji Municipal Council	Full Registration	   
+214	REG/SAT/057	Water Institute Singida Campus	Singida District Council	Full Registration	   
+215	REG/BTP/200	Fanikiwa Journalism School	Arusha City Council	Full Registration	   
+216	REG/ANE/021	Livestock Training Agency Madaba Campus	Songea District Council	Full Registration	   
+217	REG/HAS/074	Kilimanjaro School of Pharmacy	Moshi District Council	Full Registration	   
+218	REG/BTP/061	Kaliua Institute of Community Development -tabora	Kaliua District Council	Full Registration	   
+219	REG/BMG/007	Tanzania Institute of Accountancy (tia) - Dar Es Salaam	Temeke Municipal Council	Full Registration	   
+220	REG/PWF/038	Tanzania Police Staff College Kidatu - Morogoro	Kilombero District Council	Full Registration	   
+221	REG/HAS/127	Makambako Institute of Health Sciences	Makambako Town Council	Full Registration	   
+222	REG/EOS/018	Bandari College Dar-es-salaam	Temeke Municipal Council	Full Registration	   
+223	REG/ANE/018	Igabiro Training Institute of Agriculture - Muleba	Muleba District Council	Full Registration	   
+224	REG/ANE/022	Livestock Training Agency Buhuri Campus - Tanga	Tanga City Council	Full Registration	   
+225	REG/HAS/199	Northern College of Health and Allied Sciences	Moshi Municipal Council	Full Registration	   
+226	REG/HAS/047N	Mafinga College of Health and Allied Sciences	Mafinga Town Counci	Full Registration	   
+227	REG/ANE/014	Fisheries Education and Training Agency (feta) - Nyegezi Campus	Nyamagana Municipal Council	Full Registration	   
+228	REG/HAS/268P	Mary B Institute of Health and Allied Sciences	Ilemela Municipal Council	Provisional Registration	   
+229	REG/HAS/231	Mgm Health Training Institute	Iringa Municipal Council	Full Registration	   
+230	REG/HAS/195	City College of Health and Allied Sciences, Dodoma Campus	Dodoma Municipal Council	Full Registration	   
+231	REG/SAT/21	Kaole Wazazi College of Agriculture - Bagamoyo	Bagamoyo District Council	Full Registration	   
+232	REG/HAS/145	New Mafinga Health and Allied Institute	Mafinga Town Counci	Full Registration	   
+233	REG/HAS/214	Tabora Bliss College - Tabora	Tabora Municipal Council	Full Registration	   
+234	REG/ANE/009	Ministry of Agriculture Training Institute Igurusi - Mbeya	Mbarali District Council	Full Registration	   
+235	REG/BMG/053	West Evan College of Business Health and Allied Sciences	Kigamboni Municipal Council	Full Registration	   
+236	REG/HAS/218	Mong'are Medical Training College	Hai District Council	Full Registration	   
+237	REG/BTP/151P	WAPO MEDIA INSTITUTE	Kinondoni Municipal Council	Provisional Registration	   
+238	REG/HAS/224	Gold Seal Medical College	Singida District Council	Full Registration	   
+239	REG/SAT/009	Veta-kipawa Information and Communication and Technology (ict) Centre - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+240	REG/HAS/169	Mkolani Foundation Health Sciences Training Institute	Nyamagana Municipal Council	Full Registration	   
+241	REG/HAS/102	Murgwanza Nursing School	Ngara District Council	Full Registration	   
+242	REG/HAS/152	Ilula Nursing School	Kilolo District Council	Full Registration	   
+243	REG/PWF/002	Institute of Social Work - Dar Es Salaam	Kinondoni Municipal Council	Full Registration	   
+244	REG/TLF/057	Mpanda Teachers College	Mpanda District Council	Full Registration	   
+245	REG/HAS/032	Shirati College of Health Sciences	Rorya District Council	Full Registration	   
+246	REG/BTP/142P	Bagamoyo Professional College	Bagamoyo District Council	Provisional Registration	   
+247	REG/HAS/049-J	Tanga College of Health and Allied Sciences	Tanga City Council	Full Registration	   
+248	REG/ANE/003	Ministry of Agriculture Training Institute Mlingano Tanga	Muheza District Council	Full Registration	   
+249	REG/SAT/051	School of Air Defence	Tanga City Council	Full Registration	   
+250	REG/BMG/012	Tanzania Institute of Accountancy (tia) - Mbeya	Mbeya City Council	Full Registration
+251	REG/HAS/171	Kahama College of Health Sciences	Kahama Town Council	Full Registration	   
+252	REG/BTP/203	Masoka Professionals Training Institute	Moshi District Council	Full Registration	   
+253	REG/HAS/107	St. Magdalene School of Nursing	Missenyi District Council	Full Registration	   
+254	REG/BMG/050	Tanzania Institute of Accountancy (tia) - Mwanza Campus	Ilemela Municipal Council	Full Registration	   
+255	REG/EOS/027	Kilimanjaro International Institute for Telecommunications Electronics and Computers	Arusha District Council	Full Registration	   
+256	REG/HAS/046	Njombe Institute of Health and Allied Sciences (njihas)	Njombe District Council	Full Registration	   
+257	REG/HAS/226	Military College of Medical Sciences - Zanzibar Campus	Magharibi District	Full Registration	   
+258	REG/BTP/002	Raida School of Journalism and Media Studies - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+259	REG/BTP/125P	Great Sam Institute of Social and Business Studies	Magu District Council	Provisional Registration	   
+260	REG/SAT/000/D	St. Bernard Institute of Science and Technology	Ilemela Municipal Council	Provisional Registration	   
+261	REG/HAS/124	Iambi Nursing School	Mkalama District Council	Full Registration	   
+262	REG/SAT/002	Horticultural Research and Training Institute Tengeru - Arusha	Arumeru District Council	Full Registration	   
+263	REG/HAS/070-J	Kilimanjaro College of Health and Allied Sciences	Moshi Municipal Council	Full Registration	   
+264	REG/BTP/130P	Kibaha Institute of Business	Kibaha District Counci	Provisional Registration	   
+265	REG/BTP/026	Excellent College of Health and Allied Sciences - Dar Es Salaam	Kinondoni Municipal Council	Full Registration	   
+266	REG/TLF/142P	Institute of Adult Education - Mwanza	Nyamagana Municipal Council	Full Registration	   
+267	REG/HAS/054N	Songea College of Health and Allied Sciences	Songea District Council	Full Registration	   
+268	REG/BTP/041	Institute of Finance Management - Mwanza Campus	Ilemela Municipal Council	Full Registration	   
+269	REG/HAS/235	Kolandoto College of Health and Allied Sciences, Mwanza Campus	Magu District Council	Full Registration	   
+270	REG/SAT/028	Borigaram Agriculture Technical College (friends On The Path)	Temeke Municipal Council	Full Registration	   
+271	REG/SAT/038P	Ministry of Agriculture Training Institute Maruku - Bukoba	Bukoba District Council	Provisional Registration	   
+272	REG/BTP/007	College of Youth Education in Tanzania - Mwanza	Nyamagana Municipal Council	Full Registration	   
+273	REG/HAS/170	St. David College of Health Sciences	Kinondoni Municipal Council	Full Registration	   
+274	REG/BTP/210P	Amani Institute of Sign Language and Interpretation	Mbeya City Council	Preparatory Registration	   
+275	REG/BTP/201	Ecassa Institute of Social Protection	Arusha City Council	Full Registration	   
+276	REG/EOS/012	Tanzania Institute of Rail Technology - Tabora	Tabora Municipal Council	Full Registration	   
+277	REG/HAS/140	Spring Institute of Business and Science	Moshi Municipal Council	Full Registration	   
+278	REG/EOS/011	Mineral Resources Institute (madini Institute) - Dodoma	Dodoma Municipal Council	Full Registration	   
+279	REG/TLF/0140	Institute of Adult Education - Morogoro	Morogoro Municipal Council	Full Registration	   
+280	REG/BTP/089P	Paradise Business College - Sumbawanga	Sumbawanga Municipal Council	Provisional Registration	   
+281	REG/SAT/050	Tanzania Military Academy (tma)	Monduli District Council	Full Registration	   
+282	REG/BTP/062	Microtech Institute of Business and Technology - Zanzibar	Magharibi District	Full Registration	   
+283	REG/BMG/006	College of Business Education - Dodoma	Dodoma Municipal Council	Full Registration	   
+284	REG/SAT/023	Ministry of Agriculture Training Institute - Mubondo	Kasulu Town Council	Full Registration	   
+285	REG/ANE/013	Livestock Training Agency Mpwapwa Campus	Mpwapwa District Council	Full Registration	   
+286	REG/HAS/126	St. John College of Health	Mbeya City Council	Full Registration	   
+287	REG/SAT/003	Fisheries Education and Training Agency (feta) Kigoma	Kigoma-Ujiji Municipal Council	Full Registration	   
+288	REG/HAS/197	Lake Institute of Health and Allied Sciences	Singida District Council	Full Registration	   
+289	REG/EOS/009	National Institute of Transport (nit)	Kinondoni Municipal Council	Full Registration	   
+290	REG/BTP/076	St. Joseph College - Shinyanga Campus	Shinyanga District Council	Full Registration	   
+291	REG/BTP/119	Institute of Finance Management - Simiyu Campus	Bariadi District Council	Full Registration	   
+292	REG/HAS/013	Nkinga Institute of Health Sciences	Igunga District Council	Full Registration	   
+293	REG/BTP/126	Rock Institute of Human Life Management Studies	Korogwe Town Counci	Full Registration	   
+294	REG/BMG/022	Tanzania Institute of Accountancy (tia) - Mtwara	Mtwara District Council	Full Registration	   
+295	REG/BMG/028	Institute of Public Administration - Zanzibar	Kati Distric	Full Registration	   
+296	REG/HAS/257P	Skoa International College of Health and Allied Sciences	Ubungo Municipal Council	Provisional Registration	   
+297	REG/BMG/008	Tanzania Institute of Accountancy (tia) - Singida	Singida District Council	Full Registration	   
+298	REG/PWF/003	The Mwalimu Nyerere Memorial Academy - Dar Es Salaam	Kigamboni Municipal Council	Full Registration	   
+299	REG/HAS/236	Kilimanjaro Institute of Health and Allied Sciences - Dar Es Salaam	Ubungo Municipal Council	Full Registration	   
+300	REG/HAS/059	Huruma Institute of Health and Allied Sciences	Rombo District Council	Full Registration
+301	REG/HAS/015-J	Mtwara College of Health and Allied Sciences	Mtwara District Council	Full Registration	   
+302	REG/HAS/238	Mlandizi College of Health and Allied Sciences - Kibaha	Kibaha District Counci	Full Registration	   
+303	REG/HAS/073	Bumbuli College of Health and Allied Sciences	Lushoto District Council	Full Registration	   
+304	REG/BTP/134P	Covenant Institute of Accountancy and Technology	Temeke Municipal Council	Provisional Registration	   
+305	REG/BTP/137P	Dc Polytechnic Education Institute	Bukoba District Council	Provisional Registration	   
+306	REG/ANE/010	Livestock Training Agency Morogoro Campus	Morogoro Municipal Council	Full Registration	   
+307	REG/PWF/035	Zanzibar Police College - Zanzibar	Mjini District	Full Registration	   
+308	REG/BTP/120	Command and Staff College, Duluti	Arumeru District Council	Full Registration	   
+309	REG/BTP/088P	Dodoma Media College	Dodoma Municipal Council	Provisional Registration	   
+310	REG/HAS/109	Mbalizi Institute of Health Sciences - Mbeya	Mbeya District Council	Full Registration	   
+311	REG/ANE/035	Beekeeping Training Institute - Tabora	Tabora Municipal Council	Full Registration	   
+312	REG/NACTVET/1042	Jr Institute of Information Technology - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+313	REG/HAS/186	Padre Pio College of Health and Allied Sciences	Temeke Municipal Council	Full Registration	   
+314	REG/HAS/141	Mgao Health Training Institute	Njombe District Council	Full Registration	   
+315	REG/PWF/010	Taasisi ya Sanaa na Utamaduni Bagamoyo (tasuba)	Bagamoyo District Council	Full Registration	   
+316	REG/BTP/079P	Singni International Training Institute	Bukoba Municipal Council	Provisional Registration	   
+317	REG/BTP/116	Bank of Tanzania Academy	Nyamagana Municipal Council	Full Registration	   
+318	REG/BTP/090P	International Film Angles Training School	Ilala Municipal Council	Provisional Registration	   
+319	REG/PWF/030	Tanzania Regional Immigration Training Academy (trita) - Moshi	Moshi District Council	Full Registration	   
+320	REG/PWF/024	Ms Training Centre for Development Cooperation	Arumeru District Council	Full Registration	   
+321	REG/SAT/040	Mineral Resource Institute (mri) -nzega	Nzega District Council	Full Registration	   
+322	REG/HAS/222	Mangowi Education Group Africa (mega) College Tanzania Limited	Arusha City Council	Full Registration	   
+323	REG/ANE/020	Ministry of Agriculture Training Institute Tumbi - Tabora	Tabora Municipal Council	Full Registration	   
+324	REG/BTP/114P	Tanga Technical Institute	Tanga City Council	Provisional Registration	   
+325	REG/HAS/018	Sumve School of Nursing	Kwimba District Council	Full Registration	   
+326	REG/BTP/134	Don Bosco Technical Training College - Dodoma	Dodoma Municipal Council	Full Registration	   
+327	REG/HAS/088	St. Augustine Muheza Institute of Health Sciences	Muheza District Council	Full Registration	   
+328	REG/SAT/038	Mbeya Polytechnic College Tukuyu Campus	Rungwe District Council	Full Registration	   
+329	REG/HAS/064	Kahama School of Nursing	Kahama Town Council	Full Registration	   
+330	REG/HAS/104	Kam College of Health Sciences	Kinondoni Municipal Council	Full Registration	   
+331	REG/HAS/202P	Kilimanjaro Institute	Kinondoni Municipal Council	Provisional Registration	   
+332	REG/HAS/173	Elijerry College of Health and Allied Sciences	Muheza District Council	Full Registration	   
+333	REG/SAT/054	Dar Es Salaam Institute of Technology - Myunga Campus	Momba District Council	Full Registration	   
+334	REG/SAT/044	Tanzania Institute of Rail Technology Morogoro Campus	Morogoro Municipal Council	Full Registration	   
+335	REG/EOS/032	Fire and Rescue Training Centre	Ilala Municipal Council	Full Registration	   
+336	REG/TLF/065	Green Bird College - Mwanga	Mwanga District Council	Full Registration	   
+337	REG/HAS/146	Karagwe Institute of Allied Health Sciences	Karagwe District Council	Full Registration	   
+338	REG/HAS/243	Accra College of Health and Allied Sciences	Tanga City Council	Full Registration	   
+339	REG/ANE/006	College of African Wildlife Management, Mweka - Moshi	Moshi District Council	Full Registration	   
+340	REG/ANE/037	National College of Tourism - Bustani	Ilala Municipal Council	Full Registration	   
+341	REG/HAS/029N	Kibosho Institute of Health and Allied Sciences	Moshi District Council	Full Registration	   
+342	REG/HAS/050N	Edgar Maranta Ifakara College	Kilombero District Council	Full Registration	   
+343	REG/HAS/115	Arusha Lutheran Medical Training Centre	Arusha District Council	Full Registration	   
+344	REG/HAS/075-J	Mwanza College of Health and Allied Sciences - Mwanza	Nyamagana Municipal Council	Full Registration	   
+345	REG/HAS/083	Tarime School of Nursing	Tarime District Council	Full Registration	   
+346	REG/BTP/021P	Institute of Accountancy Arusha (iaa) - Babati Campus	Babati Town Counci	Provisional Registration	   
+347	REG/BTP/006	The Arusha East African Training Institute - Arusha	Arusha City Council	Full Registration	   
+348	REG/EOS/007	Water Institute	Ubungo Municipal Council	Full Registration	   
+349	REG/EOS/039	Al-maktoum College of Engineering and Technology	Kinondoni Municipal Council	Full Registration	   
+350	REG/HAS/133	Heri Nursing School	Buhigwe District Council	Full Registration
+351	REG/SAT/013	Dar Es Salaam Institute of Technology - Mwanza Campus	Ilemela Municipal Council	Full Registration	   
+352	REG/HAS/111	Nzega Nursing School	Nzega District Council	Full Registration	   
+353	REG/PWF/037	Agency for Development of Educational Management - Mwanza	Ilemela Municipal Council	Full Registration	   
+354	REG/HAS/183	Decca College of Health and Allied Sciences - Nala Campus, Dodoma	Dodoma Municipal Council	Full Registration	   
+355	REG/BTP/094	Katavi Institute of Science and Development Studies	Mpanda Town Council	Full Registration	   
+356	REG/PWF/016	Kigoma Training College	Kigoma-Ujiji Municipal Council	Full Registration	   
+357	REG/BTP/009	Institute of Social Work - Kisangara Campus	Mwanga District Council	Full Registration	   
+358	REG/BTP/149P	KING RUMANYIKA TRAINING INSTITUTE	Bukoba Municipal Council	Provisional Registration	   
+359	REG/HAS/196	Tabora College of Health and Allied Sciences	Tabora Municipal Council	Full Registration	   
+360	REG/HAS/112	Suye Health Institute	Arusha District Council	Full Registration	   
+361	REG/BTP/112	Mwanza Baptist Institute	Nyamagana Municipal Council	Full Registration	   
+362	REG/HAS/019	Bukumbi School of Nursing	Misungwi District Council	Full Registration	   
+363	REG/HAS/240	Macwish College of Health and Allied Sciences	Misungwi District Council	Full Registration	   
+364	REG/HAS/142	Decca College of Health and Allied Sciences - Dodoma	Dodoma Municipal Council	Full Registration	   
+365	REG/ANE/016	Njuweni Institute of Hotel, Catering and Tourism Management - Kibaha	Kibaha District Counci	Full Registration	   
+366	REG/NACTVET/0718	Glorious Polytechnic College	Magharibi District	Full Registration	   
+367	REG/SAT/025	Livestock Training Agency Kikulula Campus	Karagwe District Council	Full Registration	   
+368	REG/HAS/066	St. Bakhita Health Training Institute	Nkasi District Council	Full Registration	   
+369	REG/BTP/019	Rungwe International College of Business and Entrepreneurship Development - Mbeya	Rungwe District Council	Full Registration	   
+370	REG/NACTVET/1050	INDIAN INSTITUTE OF TECHNOLOGY MADRAS - ZANZIBAR CAMPUS	Magharibi District	Full Registration	   
+371	REG/BTP/204	Comenius Polytechnic Institute	Tabora Municipal Council	Full Registration	   
+372	REG/HAS/086	Centre for Educational Development in Health Arusha	Arusha City Council	Full Registration	   
+373	REG/SAT/019	Ministry of Agriculture Training Institute Inyala - Mbeya	Mbeya District Council	Full Registration	   
+374	REG/SAT/026P	Kilombero Agricultural Training and Research Institute	Kilombero District Council	Provisional Registration	   
+375	REG/HAS/150C	Testimony College of Health and Allied Sciences	Ubungo Municipal Council	Full Registration	   
+376	REG/BTP/150P	Mara Zone Training College	Musoma Municipal Council	Provisional Registration	   
+377	REG/HAS/040	Kondoa School of Nursing	Kondoa District Council	Full Registration	   
+378	REG/BTP/032P	Kaps Community Development Institute (kcdi) - Mbeya	Mbeya City Council	Full Registration	   
+379	REG/BTP/206	Local Government Training Institute - Dodoma Town Centre	Dodoma Municipal Council	Full Registration	   
+380	REG/PWF/047	Kaps Community Development Institute - Mafinga	Mufindi District Council	Full Registration	   
+381	REG/HAS/010	Dareda School of Nursing	Babati District Council	Full Registration	   
+382	REG/HAS/110	Rao Health Training Centre	Rorya District Council	Full Registration	   
+383	REG/HAS/241	Benjamin Mkapa Institute of Health and Allied Sciences	Dodoma Municipal Council	Full Registration	   
+384	REG/BTP/127	Mbonye Training College	Kibondo District Council	Full Registration	   
+385	REG/PWF/012	Dar Es Salaam School of Journalism	Ilala Municipal Council	Full Registration	   
+386	REG/HAS/213	City College of Health and Allied Sciences - Ilala Campus	Ilala Municipal Council	Full Registration	   
+387	REG/EOS/026	University of Dar Es Salaam Computing Centre - Dar Es Salaam	Kinondoni Municipal Council	Full Registration	   
+388	REG/NACTVET/1058P	Kisongo Training Institute	Arumeru District Council	Provisional Registration	   
+389	REG/HAS/079	Geita School of Nursing	Geita District Council	Full Registration	   
+390	REG/BMG/005	College of Business Education - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+391	REG/HAS/244	Tabora (ea) Polytechnic College Tuli Campus	Tabora Municipal Council	Full Registration	   
+392	REG/HAS/206	Zawadi Memorial Health Training Institute	Moshi Municipal Council	Full Registration	   
+393	REG/HAS/149	Bishop Nicodemus Hhando College of Health Sciences	Babati District Council	Full Registration	   
+394	REG/HAS/191	A3 Institute of Professional Studies	Kibaha District Counci	Full Registration	   
+395	REG/EOS/028	Regional Aviation College - Dar Es Salaam	Ilala Municipal Council	Full Registration	   
+396	REG/ANE/023	National College of Tourism - Arusha	Arusha City Council	Full Registration	   
+397	REG/BTP/209	Moonshine Training Institute	Ngara District Council	Full Registration	   
+398	REG/BTP/136	Institute of Accountancy Arusha - Dodoma Campus	Dodoma Municipal Council	Full Registration	   
+399	REG/BMG/014	Tanzania Public Service College (tpsc) - Tabora	Tabora Municipal Council	Full Registration	   
+400	REG/HAS/217P	Mpwapwa Institute of Health and Allied Sciences	Mpwapwa District Council	Provisional Registration	   
+401	REG/HAS/106N	Lugala College of Health and Allied Sciences	Ulanga District Council	Full Registration	   
+402	REG/EOS/005	Karume Institute of Science and Technology- Zanzibar	Magharibi District	Full Registration	   
+403	REG/PWF/049	Buhemba Community Development Training Institute (buhemba Cdti) - Butiama	Butiama District Council	Full Registration	   
+404	REG/HAS/128	Sr. Dr. Thekla Nursing School	Lindi District Council	Full Registration	   
+405	REG/NACTVET/0278	Nachingwea School of Nursing	Nachingwea District Council	Full Registration	   
+406	REG/BTP/131	Huheso Institute of Journalism and Community Development (hijcd)	Kahama Town Council	Full Registration	   
+407	REG/HAS/255	Shinyanga College of Health Sciences and Technology	Bukombe District Council	Full Registration	   
+408	REG/BTP/148	Local Government Training Institute - Shinyanga Campus	Shinyanga District Council	Full Registration	   
+409	REG/HAS/253	Divine College of Health and Allied Sciences	Kigoma-Ujiji Municipal Council	Full Registration	   
+410	REG/BTP/122	National College of Tourism - Mwanza	Nyamagana Municipal Council	Full Registration	   
+411	REG/SAT/035	Institute of Construction Technology	Morogoro Municipal Council	Full Registration	   
+412	REG/HAS/045	Korogwe School of Nursing	Korogwe Town Counci	Full Registration	   
+413	REG/HAS/154	St. Maximilliancolbe Health College	Tabora Municipal Council	Full Registration	   
+414	REG/BTP/002C	Rida Institute of Creative Knowledge and Innovation Skills	Ilala Municipal Council	Full Registration	   
+415	REG/HAS/266	Litembo Health Training Institute	Mbinga District Council	Full Registration	   
+416	REG/NACTVET/0716	Kange College of Health and Allied Sciences	Tanga City Council	Full Registration	   
+417	REG/NACTVET/0719P	Kingdom College of Health and Allied Sciences	Kyela District Council	Provisional Registration	   
+418	REG/EOS/017	Jr Institute of Information Technology	Arusha City Council	Full Registration	   
+419	REG/BTP/111	Songea Catholic Institute of Technical Education - Songea	Songea District Council	Full Registration	   
+420	REG/BTP/085	Dodoma Institute of Development and Entrepreneurship Dodoma	Dodoma Municipal Council	Full Registration	   
+421	REG/ANE/017	Kilacha Agriculture and Livestock Training Institute	Moshi District Council	Full Registration	   
+422	REG/BMG/033	Paradigms Institute Dar-es-salaam	Ubungo Municipal Council	Full Registration	   
+423	REG/SAT/031	Military Aviation School	Morogoro District Council	Full Registration	   
+424	REG/HAS/134	Amenye Health Training Institute	Mbeya City Council	Full Registration	   
+425	REG/BTP/087	Wesley College	Nyamagana Municipal Council	Full Registration	   
+426	REG/PWF/040	Tanzania Institute of Education	Kinondoni Municipal Council	Full Registration	   
+427	REG/HAS/181P	St. Joseph Health Training College - Mbeya	Mbeya City Council	Provisional Registration	   
+428	REG/BTP/113P	Legacy College of Tourism and Business Studies	Arusha City Council	Provisional Registration	   
+429	REG/HAS/239	Ununio College of Health and Allied Sciences - Dar-es-salaam	Kinondoni Municipal Council	Full Registration	   
+430	REG/BTP/141P	Mount Uluguru College of Hotel and Tourism	Morogoro Municipal Council	Provisional Registration	   
+431	REG/NACTVET/0717	East Evans College of Health and Allied Sciences	Kigamboni Municipal Council	Full Registration	   
+432	REG/HAS/144	Tumaini Jipya Medical Training College	Mafinga Town Counci	Full Registration	   
+433	REG/HAS/267	Mizpah Institute of Health - Misungwi	Misungwi District Council	Full Registration	   
+434	REG/HAS/058	Ngudu School of Environmental Health Sciences	Kwimba District Council	Full Registration	   
+435	REG/BMG/034	Institute of Continuing and Professional Studies - Zanzibar	Magharibi District	Full Registration	   
+436	REG/HAS/123	Zanzibar School of Health	Mjini District	Full Registration	   
+437	REG/ANE/008	Ministry of Agriculture Training Institute - Mtwara	Mtwara District Council	Full Registration	   
+438	REG/ANE/007	Forestry Training Institute Olmotonyi	Arusha City Council	Full Registration	   
+439	REG/PWF/033	Mlale Community Development Training Institute (cdti) - Songea	Songea District Council	Full Registration	   
+440	REG/BTP/146P	Hallmark Southern College for Media and Technology	Mafinga Town Counci	Provisional Registration	   
+441	REG/BMG/013	Institute of Judicial Administration (ija) - Lushoto	Lushoto District Council	Full Registration	   
+442	REG/HAS/033	Clinical Officers Training Centre Musoma	Musoma District Council	Full Registration	   
+443	REG/BTP/147	Ujiji Broadcasting Academy	Kigoma-Ujiji Municipal Council	Full Registration	   
+444	REG/BTP/023	Practical School of Journalism (psj) - Dar Es Salaam	Kinondoni Municipal Council	Full Registration	   
+445	REG/EOS/038P	University of Dar Es Salaam Computing Centre - Mbeya	Mbeya City Council	Full Registration	   
+446	REG/HAS/159	Kibondo School of Nursing	Kibondo District Council	Full Registration	   
+447	REG/HAS/131	Isimila Nursing School	Iringa Municipal Council	Full Registration	   
+448	REG/BTP/038	Tanzania Public Service College - Singida	Singida District Council	Full Registration	   
+449	REG/HAS/089	Mwambani School of Nursing	Chunya District Council	Full Registration	   
+450	REG/HAS/036	Lugarawa Health Training Institute (luheti)	Ludewa District Council	Full Registration	   
+451	REG/BTP/001	Veta Hotel and Tourism Training Institute - Vhtti	Arusha City Council	Full Registration	   
+452	REG/HAS/011	Mvumi Institute of Health Sciences	Chamwino District Council	Full Registration	   
+453	REG/HAS/116	St. Aggrey College of Health Sciences	Mbeya City Council	Full Registration	   
+454	REG/HAS/026	Kibaha College of Health and Allied Sciences	Kibaha District Counci	Full Registration	   
+455	REG/HAS/205	Hermargs Institute	Mvomero District Council	Full Registration	   
+456	REG/HAS/187	Blue Pharma College of Health	Singida District Council	Full Registration	   
+457	REG/BTP/115	Kaliua Institute of Community Development - Mwanza Campus	Misungwi District Council	Full Registration	   
+458	REG/PWF/018	Institute of Adult Education - Dar-es-salaam	Ilala Municipal Council	Full Registration	   
+459	REG/PWF/006	School of Library, Archives and Documentation Studies (slads) - Bagamoyo	Bagamoyo District Council	Full Registration	   
+460	REG/HAS/135	K's Royal College of Health Sciences	Mbeya District Council	Full Registration	   
+461	REG/PWF/008	Tengeru Institute of Community Development	Arumeru District Council	Full Registration	   
+462	REG/HAS/056	Sengerema Health Training Institute	Sengerema District Council	Full Registration	   
+463	REG/HAS/178	Msongola Health Training Institute	Ilala Municipal Council	Full Registration	   
+464	REG/HAS/225P	Mwanza Medical Academy	Nyamagana Municipal Council	Provisional Registration	   
+465	REG/HAS/221	Military College of Medical Sciences - Mwanza Campus	Ilemela Municipal Council	Full Registration	   
+466	REG/ANE/024	College of Agriculture and Natural Resources	Ilala Municipal Council	Full Registration	   
+467	REG/BTP/157P	Mwenge Community College - Zanzibar	Magharibi District	Provisional Registration	   
+468	REG/HAS/092-J	Masasi College of Health and Allied Sciences	Masasi District Council	Full Registration	   
+469	REG/HAS/103	Royal Training Institute	Temeke Municipal Council	Full Registration	   
+470	REG/TLF/106	The Mwalimu Nyerere Memorial Academy - Zanzibar	Magharibi District	Full Registration	   
+471	REG/SAT/045P	Mary Immaculate Institute of Technology and Management	Kinondoni Municipal Council	Provisional Registration	   
+472	REG/HAS/172	Uyole Health Sciences Institute	Mbeya City Council	Full Registration	   
+473	REG/HAS/198	Peramiho Institute of Health and Allied Sciences - Songea	Songea District Council	Full Registration	   
+474	REG/EOS/010	Ardhi Institute - Tabora	Tabora Municipal Council	Full Registration	   
+475	REG/SAT/62	Universal College of Africa - Dar Es Salaam	Temeke Municipal Council	Full Registration	   
+476	REG/BTP/205	Noble Trust College	Arumeru District Council	Full Registration	   
+477	REG/EOS/004	Arusha Technical College - Arusha	Arusha City Council	Full Registration	   
+478	REG/HAS/008	Kolandoto College of Health Sciences	Shinyanga District Council	Full Registration	   
+479	REG/HAS/051-J	Morogoro College of Health Science	Morogoro Municipal Council	Full Registration	   
+480	REG/HAS/132	Bishop Kisula College of Health and Allied Sciences	Busega District Council	Full Registration	   
+481	REG/BTP/133P	Africa College of Insurance and Social Protection	Kinondoni Municipal Council	Provisional Registration	   
+482	REG/EOS/008	Ardhi Institute Morogoro	Morogoro Municipal Council	Full Registration	   
+483	REG/HAS/252	Kasulu College of Health, Allied Sciences and Technology	Kasulu District Council	Full Registration	   
+484	REG/HAS/099	Massana College of Nursing	Kinondoni Municipal Council	Full Registration	   
+485	REG/EOS/002	Dar Es Salaam Maritime Institute	Ilala Municipal Council	Full Registration	   
+486	REG/SAT/058	Earth Science Institute of Shinyanga (esis)	Shinyanga District Council	Full Registration	   
+487	REG/EOS/001	Dar Es Salaam Institute of Technology	Ilala Municipal Council	Full Registration	   
+488	REG/HAS/006	Haydom Institute of Health Sciences	Mbulu District Council	Full Registration	   
+
+
+List of Universities / colleges website links:
+
+University of Dar es Salaam (UDSM) - https://www.udsm.ac.tz/
+Sokoine University of Agriculture (SUA) - https://www.sua.ac.tz/
+Ardhi University - https://www.aru.ac.tz/
+Muhimbili University of Health and Allied Sciences (MUHAS) - https://www.muhas.ac.tz/
+The Open University of Tanzania (OUT) - https://www.out.ac.tz/
+Tanzania Institute of Accountancy (TIA) - https://www.tia.ac.tz/
+St. Augustine University of Tanzania (SAUT) - https://www.saut.ac.tz/
+Hubert Kairuki Memorial University (HKMU) - https://www.hkmu.ac.tz/
+University of Dodoma (UDOM) - https://www.udom.ac.tz/
+Nelson Mandela African Institute of Science and Technology (NM-AIST) - https://www.nm-aist.ac.tz/
+Moshi Co-operative University (MoCU) - http://www.mocu.ac.tz/
+Tumaini University Makumira (TUMA), Dar es salaam Tumaini University (DarTU) / TUDarCo - https://www.makumira.ac.tz/
+Mbeya University of Science and Technology (MUST) - https://www.mustnet.ac.tz/
+Ruaha Catholic University (RUCU) - http://www.rucu.ac.tz/
+Institute of Finance Management (IFM) - https://www.ifm.ac.tz/
+Dar es Salaam Institute of Technology (DIT) - https://www.dit.ac.tz/
+St. Joseph University in Tanzania (SJUIT) - https://www.sjuit.ac.tz/
+Muslim University of Morogoro (MUM) - https://www.mum.ac.tz/
+St. John's University of Tanzania (SJUT) - https://www.sjut.ac.tz/
+University of Dar es Salaam (UDSM) - https://www.udsm.ac.tz/
+Sokoine University of Agriculture (SUA) - https://www.sua.ac.tz/
+Open University of Tanzania (OUT) - https://www.out.ac.tz/
+State University of Zanzibar (SUZA) - http://www.suza.ac.tz/
+Mzumbe University (MU) - https://www.mzumbe.ac.tz/
+Nelson Mandela African Institution of Science and Technology (NM-AIST) - https://www.nm-aist.ac.tz/
+Muhimbili University of Health and Allied Sciences (MUHAS) - https://www.muhas.ac.tz/
+Ardhi University (ARU) - https://www.aru.ac.tz/
+University of Dodoma (UDOM) - https://www.udom.ac.tz/
+Mbeya University of Science and Technology (MUST) - https://www.mustnet.ac.tz/
+Moshi Cooperative University (MoCU) - http://www.mocu.ac.tz/
+Zanzibar University (ZU) - http://www.zanvarsity.ac.tz/
+University of Arusha (UoA) - https://uarusha.ac.tz/
+Catholic University of Health and Allied Sciences (CUHAS) - https://www.cuhas.ac.tz/
+Archbishop Mihayo University College of Tabora (AMUCTA) - https://amucta.ac.tz/
+Teofilo Kisanji University (TEKU) - http://www.tekutabora.ac.tz/
+Stefano Moshi Memorial University College (SMMUCo) - https://www.smmuco.ac.tz/
+Marian University College (MARUCO) - https://www.maruco.ac.tz/
+Tanzania Public Service College (TPSC) - https://www.tpsc.go.tz/
+College of Business Education (CBE) - https://www.cbe.ac.tz/
+Jordan University College (JUCO) - https://www.juco.ac.tz/
+Hubert Kairuki Memorial University (HKMU) - https://www.hkmu.ac.tz/
+Abdulrahman Al-Sumait University (SUMAIT) - http://www.sumait.ac.tz/
+St. Augustine University of Tanzania (SAUT) - https://www.saut.ac.tz/
+Zanzibar University (ZU) - http://www.zanvarsity.ac.tz/
+Tumaini University Makumira (TUMA) - https://www.makumira.ac.tz/
+Aga Khan University (AKU) - https://www.aku.edu/
+Catholic University of Health and Allied Sciences (CUHAS) - https://www.cuhas.ac.tz/
+University of Arusha (UoA) - https://uarusha.ac.tz/
+St. Joseph University in Tanzania (SJUIT) - https://www.sjuit.ac.tz/
+Teofilo Kisanji University (TEKU) - Website not available.
+Mwenge Catholic University (MWECAU) - https://www.mwecau.ac.tz/
+Muslim University of Morogoro (MUM) - https://www.mum.ac.tz/
+University of Iringa (UoI) - http://www.uoi.ac.tz/
+St. John's University of Tanzania (SJUT) - https://www.sjut.ac.tz/
+Kampala International University in Tanzania (KIUT) - http://www.kiut.ac.tz/
+United African University of Tanzania (UAUT) - http://www.uaut.ac.tz/
+Ruaha Catholic University (RUCU) - http://www.rucu.ac.tz/
+Dar es Salaam Maritime Institute (DMI) - http://www.dmi.ac.tz/
+National Institute of Transport (NIT) - https://www.nit.ac.tz/
+Institute of Accountancy Arusha (IAA) - https://www.iaa.ac.tz/
+Tanzania Institute of Accountancy (TIA) - https://www.tia.ac.tz/
+Institute of Rural Development Planning (IRDP) - http://www.irdp.ac.tz/
+Arusha Technical College (ATC) - https://www.atc.ac.tz/
+College of African Wildlife Management, Mweka (CAWM) - https://www.mwekawildlife.org/
+Tanzania Public Service College (TPSC) - https://www.tpsc.go.tz/
+Institute of Tax Administration (ITA) - https://www.ita.ac.tz/
+College of Business Education (CBE) - https://www.cbe.ac.tz/
+Dar es Salaam Institute of Technology (DIT) - https://www.dit.ac.tz/
+Mbeya University College of Health and Allied Sciences (MUCHS) - https://www.muchs.ac.tz/
+Tanzania Forestry Research Institute (TAFORI) - http://www.tafori.org/
+Arusha Technical College (ATC) - https://www.atc.ac.tz/
+
+The different courses that Arusha Technical College (ATC) offers are shown below
+BACHELOR PROGRAMMES
+Bachelor In Computer Science
+Bachelor Degree in Information Technology
+Bachelor Degree in Computer Science
+Bachelor Degree in Automotive Electronics Engineering
+Bachelor Degree in Electrical and Biomedical Engineering
+Bachelor Degree in Electrical and Automation Engineering
+Bachelor Degree in Renewable Energy Engineering
+Bachelor Degree in Mechatronic and Material Engineering
+Bachelor Degree in Mechanical Engineering
+Bachelor Degree in Mechatronics and Material Engineering
+Bachelor Degree in Civil and Highway Engineering
+Bachelor Degree in Laboratory Science and Industrial Technology
+Bachelor Degree in Mechanical Engineering
+Bachelor Degree in Civil Engineering
+Bachelor Degree in Civil and Irrigation Engineering
+
+ORDINARY DIPLOMA PROGRAMMES
+Ordinary Diploma in Cyber Security and Digital Forensic
+Ordinary Diploma in Multimedia and Animation Technology.
+Ordinary Diploma in Computer Science
+Ordinary Diploma in Information Technology
+Ordinary Diploma in Auto-electric And Electronics Engineering
+Ordinary Diploma in Automotive Engineering
+Ordinary Diploma in Heavy Duty Equipment Engineering
+Ordinary Diploma in Instrumentation Engineering
+Ordinary Diploma in Electrical Engineering
+Ordinary Diploma in Electronics and Telecommunications Engineering
+Ordinary Diploma in Electrical and Biomedical Engineering
+Ordinary Diploma in Hydropower Engineering
+Ordinary Diploma in Electrical and Solar PV Systems Engineering
+Ordinary Diploma in Electrical and Wind Energy Systems Engineering
+Ordinary Diploma in Instrumentation Engineering
+Ordinary Diploma in Geology and Gemstone Processing Engineering
+Ordinary Diploma in Mechanical Engineering
+Ordinary Diploma in Pipe Works, Oil and Gas Engineering
+Ordinary Diploma in Mechanical and Bio-Energy Engineering
+Ordinary Diploma In Civil and Highway Engineering
+Ordinary Diploma in Laboratory Science and Technology
+Ordinary Diploma in Architecture Engineering
+Ordinary Diploma in Civil Engineering
+Ordinary Diploma in Civil and Irrigation Engineering
+In order to learn more about our academic Programmes, Admission Requirements, College Tuition Fee, other Contributions, and Students Accommodation, I recommend you and the general public to visit our college website, www.atc.ac.tz
