@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, session
 from app_processes import DocumentProcessor, ChainProcessor
 
 # the running codes
