@@ -64,6 +64,7 @@ typing-inspect==0.9.0
 typing_extensions==4.10.0
 urllib3==2.2.1
 virtualenv==20.25.1
+waitress==3.0.0
 Werkzeug==3.0.2
 yarl==1.9.4
 zipp==3.18.1
