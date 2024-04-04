@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniVisor</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .chat-container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+    .chat-box {
+      background-color: #f3f3f3;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .user-message {
+      background-color: #dcf8c6;
+    }
+    .bot-message {
+      background-color: #c7c7c7;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="chat-container">
+      <div class="chat-box bot-message">Welcome, I am your UniVisor. I address your college entry requirements and career paths related queries</div>
+        {% for m in msg %}
+            {% if m.sender == 'user' %}
+                <div class="chat-box user-message">{{m.message}}</div>
+            {% else %}
+                <div class="chat-box bot-message">{{m.message}}</div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <form method="post">
+    <div class="input-group mb-3">
+      <input type="text" name="query" id="query" class="form-control" placeholder="Type your message here" aria-label="Type your message here" aria-describedby="send-button">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="submit" id="send-button">Send</button>
+      </div>
+    </form>
+    </div>
+  </div>
+  <script>
+	document.getElementById("myForm").addEventListener("keypress", function(event) {
+ 		// Check if the Enter key is pressed
+  		if (event.keyCode === 13) {
+    		event.preventDefault(); // Prevent default form submission
+    		// Submit the form or perform any other action here
+    		document.getElementById("myForm").submit(); // Submit the form
+  		}
+	});
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
