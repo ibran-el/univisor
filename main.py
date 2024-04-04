@@ -15,16 +15,21 @@ messages = []
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
+    if 'messages' not in session:
+        session['messages'] = []  # Initialize session messages list if not present
+    
     if request.method == 'POST':
         q = request.form['query']
         q+="\. Make your response neat and easy to understand"
-        messages.append({'sender': 'user', 'message': q})
-        print(f"q is {q}")
+        session['messages'].append({'sender': 'user', 'message': q})
+        # messages.append({'sender': 'user', 'message': q})
+        # print(f"q is {q}")
 
         r = chain_obj.generate_response(q, doc_and_chain)
-        messages.append({'sender': 'bot', 'message': r})
+        # messages.append({'sender': 'bot', 'message': r})
+        session['messages'].append({'sender': 'bot', 'message': r})
 
-        return render_template('ui_.html',msg = messages)
+        return render_template('ui_.html',msg = session['messages'])
 
     return render_template('ui_.html')
 
