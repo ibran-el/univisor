@@ -10,6 +10,7 @@ text = doc_obj.readFilez()
 chain_obj = ChainProcessor(text)
 doc_and_chain = chain_obj.CProcessing()
 
+load_dotenv()
 
 app = Flask('__name__', template_folder = './templates')
 secret_key = os.getenv("SECRET_KEY")
