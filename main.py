@@ -22,22 +22,13 @@ def index():
     if 'messages' not in session:
         session['messages'] = []  # Initialize session messages list if not present
 
-    f 'llm' not in session:
-        session['llm'] = chain_obj.CProcessing()[1]  # Initialize llm in session
-    
     if request.method == 'POST':
         q = request.form['query']
         q+="\. Make your response neat and easy to understand"
         session['messages'].append({'sender': 'user', 'message': q})
-        # messages.append({'sender': 'user', 'message': q})
-        # print(f"q is {q}")
 
-        llm = session['llm']  # Retrieve llm from session
-        r = chain_obj.generate_response(q, (doc_and_chain[0], llm))
-        session['llm'] = r['llm_state']  # Update llm in session
+        r = chain_obj.generate_response(q, doc_and_chain)
         
-        # r = chain_obj.generate_response(q, doc_and_chain)
-        # # messages.append({'sender': 'bot', 'message': r})
         session['messages'].append({'sender': 'bot', 'message': r})
 
         return render_template('ui_.html',msg = session['messages'])
