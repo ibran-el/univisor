@@ -9,7 +9,8 @@ from langchain_community.llms import EdenAI
 from PyPDF2 import PdfReader
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.memory import ConversationBufferWindowMemory
+from langchain.memory import ConversationBufferMemory
+from langchain_core.prompts import PromptTemplate
 
 # os.environ['EDENAI_API_KEY'] = userdata.get('EDEN_KEY')
 
@@ -79,16 +80,30 @@ class ChainProcessor:
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
         docsearch = FAISS.from_texts(text_chunks,embeddings)
         llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
-        memory = ConversationBufferWindowMemory(k=3,return_messages=True)
-        # memory.save_context({"input": "hi"}, {"output": "Hello, How may I assist You today?"})
-        memory.save_context({"input": "Who are you"}, {"output": "Hey there! I'm UniVisor, your personal guide for university and career. I'm here to help you succeed!"})
-        # memory.load_memory_variables({})
-        chain = load_qa_chain(llm=llm, chain_type='stuff', memory=memory)
+        
+        
+        template = """You are a UniVIsor A guide for university and career paths, you provide professional guidance and answers peoples queries
+
+            Given the following extracted parts of a long document and a question, create a final well formatted answer.
+
+            {context}
+
+            {chat_history}
+            Human: {query}
+            Chatbot:"""
+        
+        prompt = PromptTemplate(input_variables=["chat_history", "human_input", "context"], template=template)
+        
+        # memory = ConversationBufferMemory(memory_key="chat_history", input_key="human_input")
+        memory = ConversationBufferWindowMemory(chat_memory="chat_history", k=3, input_prefix="query", output_prefix="response")
+        
+        chain = load_qa_chain(llm=llm, chain_type='stuff', memory=memory, prompt=prompt)
 
         return docsearch, chain
 
     def generate_response(self, query, doc_and_chain):
         docsearch, chain = doc_and_chain
         docs = docsearch.similarity_search(query)
-        response = chain.run(input_documents=docs, question=query)
+        response = chain.run({"input_documents": docs, "query": query}, return_only_outputs=True)
+        # response = chain.run(input_documents=docs, question=query)
         return response
