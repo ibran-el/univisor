@@ -81,7 +81,7 @@ class ChainProcessor:
         llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
 	    #llm = EdenAI(edenai_api_key=my_secret,
                         #    provider="openai", temperature=0.5, max_tokens=250)
-	memory = ConversationBufferWindowMemory(k=3, return_messages=True)    
+	memory = ConversationBufferWindowMemory(k=3, return_messages=True)
 	memory.save_context({"input": "hi"}, {"output": "Hello, How may I assist You today?"})
 	memory.save_context({"input": "Who are you"}, {"output": "Hey there! I'm UniVisor, your personal guide for university and career. I'm here to help you succeed!"})
         memory.load_memory_variables({})
