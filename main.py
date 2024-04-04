@@ -1,5 +1,7 @@
 from flask import Flask, request, render_template, session
 from app_processes import DocumentProcessor, ChainProcessor
+import dotenv
+import os
 
 # the running codes
 data_dir = './data/'
@@ -10,8 +12,9 @@ doc_and_chain = chain_obj.CProcessing()
 
 
 app = Flask('__name__', template_folder = './templates')
-
-messages = []
+secret_key = os.getenv("SECRET_KEY")
+app.config['SECRET_KEY'] = secret_key
+# messages = []
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
