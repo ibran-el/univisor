@@ -83,7 +83,7 @@ class ChainProcessor:
         # memory.save_context({"input": "hi"}, {"output": "Hello, How may I assist You today?"})
         memory.save_context({"input": "Who are you"}, {"output": "Hey there! I'm UniVisor, your personal guide for university and career. I'm here to help you succeed!"})
         # memory.load_memory_variables({})
-        chain = load_qa_chain(llm, chain_type='stuff', memory=memory)
+        chain = load_qa_chain(llm=llm, chain_type='stuff', memory=memory)
 
         return docsearch, chain
 
