@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, session
 from app_processes import DocumentProcessor, ChainProcessor
-import dotenv
+from dotenv import load_dotenv
 import os
 
 # the running codes
