@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template
 from app_processes import DocumentProcessor, ChainProcessor
 
-
 # the running codes
 data_dir = './data/'
 doc_obj = DocumentProcessor(data_dir)
