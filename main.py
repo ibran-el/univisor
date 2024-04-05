@@ -22,6 +22,7 @@ def index():
         print(f"q is {q}")
 
         r = chain_obj.generate_response(q, doc_and_chain)
+        
         messages.append({'sender': 'bot', 'message': r})
 
         return render_template('ui_.html',msg = messages)
@@ -30,4 +31,4 @@ def index():
 
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0',port=8080)
+  app.run(host='0.0.0.0',port=8080, debug=True)
