@@ -5,6 +5,9 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain.memory import VectorStoreRetrieverMemory
+from langchain_core.prompts import PromptTemplate
+from langchain.chains import ConversationChain
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 
@@ -71,16 +74,61 @@ class ChainProcessor:
         text_chunks = char_txt_splitter.split_text(self.text)
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
-        docsearch = FAISS.from_texts(text_chunks,embeddings)
+        db = FAISS.from_texts(text_chunks,embeddings)
 
-        llm = llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
+        retriever = db.as_retriever(search_kwargs={"k": 3})
 
-        chain = load_qa_chain(llm, chain_type='stuff')
+        memory = VectorStoreRetrieverMemory(retriever=retriever)
+        
+        # context = [
+        #     {"input":"Hello", "output":"Hi, How are you How may can I help you today?"},
+        #     {"input":"Who are you", "output":"I aam your guide toward your University and Career guide"}
+        # ]   
+        
+        # for turn in context:
+        #     memory.save_context({"input":turn['input'], "output":turn['output']})
+        
+        llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
+        
+        prompt_template = """You are UniVisor an Assistant bot that assists users inquiry concerning universities 
+        entry requirements in Tanzania as well as career paths, you are a kind, charismatic and empathetic
+        professional guide. always take note of context:
+        
+        context:{history}
+        
+        and current conversation:
+        user:{input}
+        model:"""
 
-        return docsearch, chain
+        prompt = PromptTemplate(input_variables=["history","input"], template=prompt_template)
+        
+        conversation_chain = ConversationChain(
+            llm=llm,
+            prompt=prompt,
+            memory=memory,
+            verbose =True
+        )
 
-    def generate_response(self, query, doc_and_chain):
-        docsearch, chain = doc_and_chain
-        docs = docsearch.similarity_search(query)
-        response = chain.run(input_documents=docs, question=query)
+        # chain = load_qa_chain(llm, chain_type='stuff')
+        return conversation_chain, memory
+        # return docsearch, chain
+
+    def mem_save(self, query, resp, memory):
+        mem = memory
+        mem.save_context({"input": query}, {"output": resp}) #
+
+    def generate_response(self, query, mem_chain):
+        # docsearch, chain = doc_and_chain   
+        chain, memory = mem_chain
+        # memory.load_memory_variables({"input":query})
+        
+        response = chain.predict(input=query)
+        if(response):
+            self.mem_save(query, response, memory)
+        # docs = docsearch.similarity_search(query)
+        # response = chain.run(input_documents=docs, question=query)
+        
         return response
+    
+   
+        
