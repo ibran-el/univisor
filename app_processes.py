@@ -129,6 +129,3 @@ class ChainProcessor:
         # response = chain.run(input_documents=docs, question=query)
         
         return response
-    
-   
-        
