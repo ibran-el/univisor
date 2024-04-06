@@ -77,7 +77,7 @@ class ChainProcessor:
 
 
     def generate_response(self, query, chains): 
-        chain = chains
-
-        response = chain.invoke({ "input": query})       
+        vector_db, chain = chains
+        doc = vector_db.similarity_seacrh(query)
+        response = chain.run(input_documents=docs, question=query)       
         return response['output']
