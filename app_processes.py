@@ -1,18 +1,19 @@
 import docx
 import os
-from langchain.chains.question_answering import load_qa_chain
-from langchain.text_splitter import CharacterTextSplitter
-from langchain_community.vectorstores import FAISS
-from langchain_google_genai import GoogleGenerativeAI
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.memory import VectorStoreRetrieverMemory
+import getpass
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.vectorstores import Chroma
+from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings
+from langchain_core.runnables import RunnablePassthrough
+from langchain.memory import ConversationBufferWindowMemory
 from langchain_core.prompts import PromptTemplate
-from langchain.chains import ConversationChain
+from langchain.chains import create_history_aware_retriever, RetrievalQA
+from langchain.agents import create_vectorstore_agent, AgentExecutor, Tool, initialize_agent
+from langchain.agents.agent_toolkits import VectorStoreInfo, VectorStoreToolkit
+from langchain.tools.retriever import create_retriever_tool
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 
-import getpass
-import os
 
 load_dotenv()
 my_secret = os.environ.get('GOOGLE_API_KEY')
@@ -68,64 +69,57 @@ class ChainProcessor:
 
     def CProcessing(self):
         # split text into chunks for easy processing and memory management
-        char_txt_splitter = CharacterTextSplitter(
-            separator='\n', chunk_size=1000, chunk_overlap=200, length_function=len)
-
+        char_txt_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
         text_chunks = char_txt_splitter.split_text(self.text)
-        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-
-        db = FAISS.from_texts(text_chunks,embeddings)
-
-        retriever = db.as_retriever(search_kwargs={"k": 3})
-
-        memory = VectorStoreRetrieverMemory(retriever=retriever)
         
-        # context = [
-        #     {"input":"Hello", "output":"Hi, How are you How may can I help you today?"},
-        #     {"input":"Who are you", "output":"I aam your guide toward your University and Career guide"}
-        # ]   
-        
-        # for turn in context:
-        #     memory.save_context({"input":turn['input'], "output":turn['output']})
+        persist_dir = 'vdb' #creating a vector db to disk
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001") #initialize embeddins
+        vector_db = Chroma.from_texts(texts=text_chunks,embedding=embeddings,persist_directory=persist_dir)
+        retriever = vector_db.as_retriever(search_type='similarity', search_kwargs={"k": 3})
         
         llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
         
-        prompt_template = """You are UniVisor an Assistant bot that assists users inquiry concerning universities 
-        entry requirements in Tanzania as well as career paths, you are a kind, charismatic and empathetic
-        professional guide. always take note of context:
+        memory = ConversationBufferWindowMemory(memory_key ="chat_history",k=3)
         
-        context:{history}
-        
-        and current conversation:
-        user:{input}
-        model:"""
-
-        prompt = PromptTemplate(input_variables=["history","input"], template=prompt_template)
-        
-        conversation_chain = ConversationChain(
-            llm=llm,
-            prompt=prompt,
-            memory=memory,
-            verbose =True
+        vector_i = VectorStoreInfo(
+            name = 'vector_db',
+            description = 'Find useful information from the vector only.',
+            vectorstore = vector_db
         )
 
-        # chain = load_qa_chain(llm, chain_type='stuff')
-        return conversation_chain, memory
-        # return docsearch, chain
-
-    def mem_save(self, query, resp, memory):
-        mem = memory
-        mem.save_context({"input": query}, {"output": resp}) #
-
-    def generate_response(self, query, mem_chain):
-        # docsearch, chain = doc_and_chain   
-        chain, memory = mem_chain
-        # memory.load_memory_variables({"input":query})
+        toolkit = VectorStoreToolkit(
+            llm = llm,
+            vectorstore_info = vector_i
+        )
         
-        response = chain.predict(input=query)
-        if(response):
-            self.mem_save(query, response, memory)
-        # docs = docsearch.similarity_search(query)
-        # response = chain.run(input_documents=docs, question=query)
+        tools =[ create_retriever_tool(
+            retriever = retriever,
+            name = "vector_tool",
+            description = "Use this tool to retrieve information from the vector db as context",
+            document_separator = "\n"
+        )]
         
-        return response
+        template = """Answer the questions as UniVisor, a University and Career paths guide,
+        Using the given context, be creative and empathetic.
+        {chat_history}
+        Human: {query}
+        AI: """
+        
+        prompt = PromptTemplate( input_variables=["query", "chat_history"], template = template)
+        
+        agent_store = create_vectorstore_agent(
+            llm = llm,
+            toolkit = toolkit,
+            verbose = True,
+            agent_executor_kwargs = {"memory":memory},
+            kwargs = {"prompt":prompt}
+        )
+        
+        return agent_store
+
+
+    def generate_response(self, query, chains): 
+        chain = chains
+
+        response = chain.invoke({ "input": query})       
+        return response['output']
