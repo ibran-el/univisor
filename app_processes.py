@@ -80,4 +80,4 @@ class ChainProcessor:
         vector_db, chain = chains
         docs = vector_db.similarity_search(query)
         response = chain.run(input_documents=docs, question=query)       
-        return response['output']
+        return response
