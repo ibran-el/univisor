@@ -1,8 +1,8 @@
 import docx
 import os
 import getpass
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
+from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_core.runnables import RunnablePassthrough
 from langchain.memory import ConversationBufferWindowMemory
@@ -69,12 +69,12 @@ class ChainProcessor:
 
     def CProcessing(self):
         # split text into chunks for easy processing and memory management
-        char_txt_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
+        char_txt_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
         text_chunks = char_txt_splitter.split_text(self.text)
         
         persist_dir = 'vdb' #creating a vector db to disk
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001") #initialize embeddins
-        vector_db = Chroma.from_texts(texts=text_chunks,embedding=embeddings,persist_directory=persist_dir)
+        vector_db = FAISS.from_texts(texts=text_chunks,embedding=embeddings,persist_directory=persist_dir)
         retriever = vector_db.as_retriever(search_type='similarity', search_kwargs={"k": 3})
         
         llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
@@ -102,10 +102,10 @@ class ChainProcessor:
         template = """Answer the questions as UniVisor, a University and Career paths guide,
         Using the given context, be creative and empathetic.
         {chat_history}
-        Human: {query}
+        Human: {input}
         AI: """
         
-        prompt = PromptTemplate( input_variables=["query", "chat_history"], template = template)
+        prompt = PromptTemplate( input_variables=["input", "chat_history"], template = template)
         
         agent_store = create_vectorstore_agent(
             llm = llm,
