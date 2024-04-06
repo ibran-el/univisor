@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-from app_processes_i import DocumentProcessor, ChainProcessor
+from app_processes import DocumentProcessor, ChainProcessor
 
 
 # the running codes
