@@ -74,7 +74,7 @@ class ChainProcessor:
         
         persist_dir = 'vdb' #creating a vector db to disk
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001") #initialize embeddins
-        vector_db = FAISS.from_texts(texts=text_chunks,embedding=embeddings,persist_directory=persist_dir)
+        vector_db = FAISS.from_texts(texts=text_chunks,embedding=embeddings)
         retriever = vector_db.as_retriever(search_type='similarity', search_kwargs={"k": 3})
         
         llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
