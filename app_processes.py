@@ -1,13 +1,15 @@
 import docx
 import os
-import getpass
+from langchain.chains.question_answering import load_qa_chain
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain.chains.question_answering import load_qa_chain
+from langchain_google_genai import GoogleGenerativeAI
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 from PyPDF2 import PdfReader
 
+import getpass
+import os
 
 load_dotenv()
 my_secret = os.environ.get('GOOGLE_API_KEY')
@@ -63,21 +65,28 @@ class ChainProcessor:
 
     def CProcessing(self):
         # split text into chunks for easy processing and memory management
-        char_txt_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=200, length_function=len)
-        text_chunks = char_txt_splitter.split_text(self.text)
+        char_txt_splitter = CharacterTextSplitter(
+            separator='\n', chunk_size=1000, chunk_overlap=200, length_function=len)
 
-        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001") #initialize embeddins
-        vector_db = FAISS.from_texts(texts=text_chunks,embedding=embeddings)
+        text_chunks = char_txt_splitter.split_text(self.text)
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+
+        db = FAISS.from_texts(text_chunks,embeddings) 
         
         llm = GoogleGenerativeAI(model="models/text-bison-001", google_api_key=my_secret)
+
+        chain = load_qa_chain(llm, chain_type='stuff')
         
-        chain = load_qa_chain(llm, chain_type = 'stuff')
-       
-        return vector_db, chain
+        return db, chain
 
+    def generate_response(self, query, db_chain):
 
-    def generate_response(self, query, chains): 
-        vector_db, chain = chains
-        docs = vector_db.similarity_search(query)
-        response = chain.run(input_documents=docs, question=query)       
+        db, chain = db_chain
+        docs = db.similarity_search(query)
+        
+        response = chain.run(input_documents = docs, question=query)
+
         return response
+    
+   
+        
