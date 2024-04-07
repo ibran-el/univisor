@@ -7,12 +7,10 @@ data_dir = './data/'
 doc_obj = DocumentProcessor(data_dir)
 text = doc_obj.readFilez()
 chain_obj = ChainProcessor(text)
-doc_and_chain = chain_obj.CProcessing()
-
-
-app = Flask('__name__', template_folder = './templates')
+db_and_chain = chain_obj.CProcessing()
 
 messages = []
+app = Flask('__name__', template_folder = './templates')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -21,7 +19,7 @@ def index():
         messages.append({'sender': 'user', 'message': q})
         print(f"q is {q}")
 
-        r = chain_obj.generate_response(q, doc_and_chain)
+        r = chain_obj.generate_response(q, db_and_chain)
         
         messages.append({'sender': 'bot', 'message': r})
 
