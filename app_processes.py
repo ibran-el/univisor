@@ -84,9 +84,6 @@ class ChainProcessor:
         db, chain = db_chain
         docs = db.similarity_search(query)
         
-        response = chain.invoke(input_documents = docs, question=query)
+        response = chain.run(input_documents = docs, question=query)
 
         return response
-    
-   
-        
