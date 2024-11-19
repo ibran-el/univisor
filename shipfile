@@ -1,0 +1,4 @@
+script: |
+  pip install -r requirements.txt
+
+run: python app_003.py
