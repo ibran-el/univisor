@@ -1,4 +1,4 @@
 script: |
   pip install -r requirements.txt
 
-run: python app/univisor_app.py
+run: python univisor_app.py
