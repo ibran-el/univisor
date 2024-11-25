@@ -1,5 +1,4 @@
 import telebot # type: ignore
-from telebot import apihelper # type: ignore
 import os
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  # type: ignore
@@ -23,7 +22,7 @@ token = os.environ.get('BOT_TOKEN')
 groq = os.environ.get('GROQ_API_KEY')
 cohere = os.environ.get('COHERE_API_KEY')
 
-apihelper.proxy = {'http': 'http://5.39.69.35:51028'}
+telebot.apihelper.proxy = {'http': 'http://5.39.69.35:51028', 'https':'https://5.39.69.35:51028'}
 
 # load reference files (remember to put the mechanism for loading multiple files from a choosen location)
 file_path = "doc/udsm.pdf"
