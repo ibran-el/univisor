@@ -40,7 +40,7 @@ for file in file_path:
     loader = PyPDFLoader(file)
     docs += loader.load()
 
-print(len(docs))
+print(len(docs + " documents loaded"))
 
 
 # set up the LLM
@@ -213,9 +213,11 @@ def send_welcome(message):
 def reply_to_message(msg):
     question = msg.text
     enter_data(msg.chat.id, msg.chat.id, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), msg.from_user.username, "user", question)
+    print(f"query sent")
 
     answer = get_reponse(question)
     enter_data(msg.chat.id, msg.chat.id, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), msg.from_user.username, "bot", answer)
     unibot.send_message(chat_id = msg.chat.id, text = answer, parse_mode='Markdown')
+    print(f"response sent")
 
 unibot.infinity_polling(timeout=30,)
