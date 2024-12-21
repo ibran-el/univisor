@@ -9,6 +9,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_community.vectorstores import FAISS
 from langchain_cohere import CohereEmbeddings 
+from langchain_community.embeddings.edenai import EdenAiEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter  
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain 
 from langchain_core.prompts import MessagesPlaceholder, ChatPromptTemplate 
@@ -26,7 +27,7 @@ load_dotenv()
 
 token = os.environ.get('BOT_TOKEN')
 groq = os.environ.get('GROQ_API_KEY')
-cohere = os.environ.get('COHERE_API_KEY')
+eden = os.environ.get('EDEN_API_KEY')
 
 # load reference files (remember to put the mechanism for loading multiple files from a choosen location)
 # file_path = "doc/udsm.pdf"
@@ -74,7 +75,7 @@ def batch_embed_documents(documents, embedding_model, batch_size, delay):
     return embeddings
 
 # Step 3: Create an instance of the embedding model
-embedding_model = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=cohere)
+embedding_model = EdenAiEmbeddings(edenai_api_key=eden, provider="openai")
 
 # Step 4: Embed documents in batches
 embeddings = batch_embed_documents(splits, embedding_model, batch_size=200, delay=4)
