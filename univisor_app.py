@@ -76,7 +76,7 @@ def batch_embed_documents(documents, embedding_model, batch_size, delay):
 embedding_model = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=cohere)
 
 # Step 4: Embed documents in batches
-embeddings = batch_embed_documents(splits, embedding_model, batch_size=1, delay=4)
+embeddings = batch_embed_documents(splits, embedding_model, batch_size=200, delay=4)
 
 # Step 5: Create the vectorstore with the precomputed embeddings
 vectorstore = FAISS.from_documents(documents=splits, embeddings=embeddings)
