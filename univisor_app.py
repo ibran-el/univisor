@@ -54,7 +54,7 @@ splits = text_splitter.split_documents(docs)
 
 
 # Step 2: Batch process the document embeddings
-def batch_embed_documents(documents, embedding_model, batch_size=1, delay=1.5):
+def batch_embed_documents(documents, embedding_model, batch_size, delay=1.5):
     """
     Embed documents in batches to avoid exceeding API rate limits.
     
@@ -75,7 +75,7 @@ def batch_embed_documents(documents, embedding_model, batch_size=1, delay=1.5):
 embedding_model = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=cohere)
 
 # Step 4: Embed documents in batches
-embeddings = batch_embed_documents(splits, embedding_model, batch_size=10, delay=1.5)
+embeddings = batch_embed_documents(splits, embedding_model, batch_size=1, delay=1.5)
 
 # Step 5: Create the vectorstore with the precomputed embeddings
 vectorstore = InMemoryVectorStore.from_embeddings(documents=splits, embeddings=embeddings)
