@@ -40,7 +40,7 @@ for file in file_path:
     loader = PyPDFLoader(file)
     docs += loader.load()
 
-print(len(docs + " documents loaded"))
+print(len(docs) + " documents loaded")
 
 
 # set up the LLM
