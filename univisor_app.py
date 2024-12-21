@@ -7,8 +7,6 @@ from datetime import datetime
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  
 from langchain_core.vectorstores import InMemoryVectorStore
-from langchain_community.vectorstores import FAISS
-from langchain_cohere import CohereEmbeddings 
 from langchain_community.embeddings.edenai import EdenAiEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter  
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain 
@@ -48,7 +46,7 @@ print("document loaded ...")
 # set up the LLM
 llm = ChatGroq(
       model="llama3-8b-8192",
-      temperature = 0.3
+      temperature = 0.5
       )
 print("starting embeddigs...")
 # creating a document retriever
@@ -58,7 +56,7 @@ splits = text_splitter.split_documents(docs)
 vectorstore = InMemoryVectorStore.from_documents(
     documents=splits, embedding = EdenAiEmbeddings(
          edenai_api_key=eden, 
-         provider="openai"
+         provider="cohere"
          )
 )
 
