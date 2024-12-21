@@ -1,5 +1,6 @@
 import telebot # type: ignore
 import os
+import glob
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  # type: ignore
 from langchain_core.vectorstores import InMemoryVectorStore # type: ignore
@@ -25,10 +26,11 @@ cohere = os.environ.get('COHERE_API_KEY')
 telebot.apihelper.proxy = {'http': 'socks5://208.102.51.6:58208', 'https':'socks5:/208.102.51.6:58208'}
 
 # load reference files (remember to put the mechanism for loading multiple files from a choosen location)
-file_path = "doc/udsm.pdf"
-loader = PyPDFLoader(file_path)
+# file_path = "doc/udsm.pdf"
+# loader = PyPDFLoader(file_path)
 
-docs = loader.load()
+# docs = loader.load()
+file_path = glob.glob("doc/*.pdf")
 
 print(len(docs))
 
