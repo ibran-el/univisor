@@ -2,6 +2,7 @@ import telebot # type: ignore
 import os
 import glob
 import uuid
+import datetime
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  # type: ignore
 from langchain_core.vectorstores import InMemoryVectorStore # type: ignore
@@ -15,6 +16,7 @@ from langchain_core.chat_history import BaseChatMessageHistory # type: ignore
 from langchain_core.runnables.history import RunnableWithMessageHistory # type: ignore
 from langchain_groq import ChatGroq # type: ignore
 from langchain.chains.combine_documents import create_stuff_documents_chain # type: ignore
+import gsheets_db # type: ignore
 
 
 # APP SETUPS
@@ -138,6 +140,12 @@ conversational_rag_chain = RunnableWithMessageHistory(
 )
 
 
+# google sheets db data entry
+def enter_data(chat_id, session_id, timestamp, tg_username, sender, message):
+    client = gsheets_db.gspread.authorize(gsheets_db.creds)
+    sheet = client.open("univisor logs").sheet1
+    sheet.append_row([chat_id, session_id, timestamp, tg_username, sender, message])
+
 # response function
 def generate_session_token():
     return str(uuid.uuid4())
@@ -175,7 +183,10 @@ def send_welcome(message):
 @unibot.message_handler(func=lambda message: True)
 def reply_to_message(msg):
     question = msg.text
+    enter_data(msg.chat.id, msg.chat.id, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), msg.from_user.username, "user", question)
+
     answer = get_reponse(question)
+    enter_data(msg.chat.id, msg.chat.id, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), msg.from_user.username, "bot", answer)
     unibot.send_message(chat_id = msg.chat.id, text = answer, parse_mode='Markdown')
 
 unibot.infinity_polling(timeout=30,)

@@ -19,6 +19,9 @@ scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/au
 creds = ServiceAccountCredentials.from_json_keyfile_dict(credentials_dict, scope)
 
 # Use the credentials (example: access a Google Sheet)
-client = gspread.authorize(creds)
-sheet = client.open("univisor logs").sheet1
-sheet.append_row(["CHAT ID","SESSION ID", "TIMESTAMP", "TG_USERNAME", "SENDER", "MESSAGE"])
+# client = gspread.authorize(creds)
+# sheet = client.open("univisor logs").sheet1
+# sheet.append_row(["CHAT ID","SESSION ID", "TIMESTAMP", "TG_USERNAME", "SENDER", "MESSAGE"])
+
+if __name__ == "__main__":
+    print("Successfully authenticated with Google Sheets API")
