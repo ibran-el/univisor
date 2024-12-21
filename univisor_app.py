@@ -42,7 +42,7 @@ for file in file_path:
     docs += loader.load()
 
 print(len(docs))
-print("done")
+print("dondocument loaded ...")
 
 
 # set up the LLM
@@ -50,48 +50,20 @@ llm = ChatGroq(
       model="llama3-8b-8192",
       temperature = 0.3
       )
-
+print("starting embeddigs...")
 # creating a document retriever
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 splits = text_splitter.split_documents(docs)
 
-
-# Step 2: Batch process the document embeddings
-def batch_embed_documents(documents, embedding_model, batch_size, delay):
-    """
-    Embed documents in batches to avoid exceeding API rate limits.
-    
-    :param documents: List of document chunks to embed
-    :param embedding_model: The embedding model instance
-    :param batch_size: Number of documents to process per batch
-    :param delay: Delay (in seconds) between each batch
-    :return: List of embeddings
-    """
-    embeddings = []
-    for i in range(0, len(documents), batch_size):
-        batch = documents[i:i + batch_size]
-        embeddings.extend(embedding_model.embed_documents([doc.page_content for doc in batch]))
-        time.sleep(delay)  # Introduce a delay between batches to respect rate limits
-    return embeddings
-
-# Step 3: Create an instance of the embedding model
-embedding_model = EdenAiEmbeddings(edenai_api_key=eden, provider="openai")
-
-# Step 4: Embed documents in batches
-embeddings = batch_embed_documents(splits, embedding_model, batch_size=200, delay=4)
-
-# Step 5: Create the vectorstore with the precomputed embeddings
-vectorstore = FAISS.from_documents(documents=splits, embeddings=embeddings)
-
-# vectorstore = InMemoryVectorStore.from_documents(
-#     documents=splits, embedding = CohereEmbeddings(
-#         model="embed-english-v3.0",
-#         cohere_api_key = cohere
-#         )
-# )
+vectorstore = InMemoryVectorStore.from_documents(
+    documents=splits, embedding = EdenAiEmbeddings(
+         edenai_api_key=eden, 
+         provider="openai"
+         )
+)
 
 retriever = vectorstore.as_retriever()
-
+print("embdeddings and vectorstore created...")
 
 # SETTING UP CONVERSATIONAL MEMORY-------------------------------
 # creating the conversational memory prompt for context provision
@@ -193,7 +165,7 @@ def get_reponse(q):
     
      return results['answer']
     
-print("done")
+print("configuaration done")
 
 
 # BOT SETUPS
