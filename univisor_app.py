@@ -42,7 +42,7 @@ for file in file_path:
     docs += loader.load()
 
 print(len(docs))
-print("dondocument loaded ...")
+print("document loaded ...")
 
 
 # set up the LLM
