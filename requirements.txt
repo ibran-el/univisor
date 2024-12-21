@@ -18,6 +18,7 @@ dataclasses-json==0.6.7
 distro==1.9.0
 dynaconf==3.2.6
 exceptiongroup==1.2.2
+faiss-cpu==1.9.0.post1
 fastavro==1.9.7
 filelock==3.16.1
 Flask==3.1.0
