@@ -1,22 +1,22 @@
-import telebot # type: ignore
+import telebot 
 import os
 import glob
 import uuid
 import datetime
 from dotenv import load_dotenv
-from langchain_community.document_loaders import PyPDFLoader  # type: ignore
-from langchain_core.vectorstores import InMemoryVectorStore # type: ignore
-from langchain_cohere import CohereEmbeddings # type: ignore
-from langchain_text_splitters import RecursiveCharacterTextSplitter  # type: ignore
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain # type: ignore
-from langchain_core.prompts import MessagesPlaceholder, ChatPromptTemplate # type: ignore
-from langchain.memory import ConversationBufferMemory # type: ignore
-from langchain_community.chat_message_histories import ChatMessageHistory # type: ignore
-from langchain_core.chat_history import BaseChatMessageHistory # type: ignore
-from langchain_core.runnables.history import RunnableWithMessageHistory # type: ignore
-from langchain_groq import ChatGroq # type: ignore
-from langchain.chains.combine_documents import create_stuff_documents_chain # type: ignore
-import gsheets_db # type: ignore
+from langchain_community.document_loaders import PyPDFLoader  
+from langchain_core.vectorstores import InMemoryVectorStore 
+from langchain_cohere import CohereEmbeddings 
+from langchain_text_splitters import RecursiveCharacterTextSplitter  
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain 
+from langchain_core.prompts import MessagesPlaceholder, ChatPromptTemplate 
+from langchain.memory import ConversationBufferMemory 
+from langchain_community.chat_message_histories import ChatMessageHistory 
+from langchain_core.chat_history import BaseChatMessageHistory 
+from langchain_core.runnables.history import RunnableWithMessageHistory 
+from langchain_groq import ChatGroq 
+from langchain.chains.combine_documents import create_stuff_documents_chain 
+import gsheets_db 
 
 
 # APP SETUPS
