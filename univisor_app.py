@@ -1,6 +1,7 @@
 import telebot # type: ignore
 import os
 import glob
+import uuid
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  # type: ignore
 from langchain_core.vectorstores import InMemoryVectorStore # type: ignore
@@ -31,6 +32,11 @@ telebot.apihelper.proxy = {'http': 'socks5://208.102.51.6:58208', 'https':'socks
 
 # docs = loader.load()
 file_path = glob.glob("doc/*.pdf")
+
+docs = []
+for file in file_path:
+    loader = PyPDFLoader(file)
+    docs += loader.load()
 
 print(len(docs))
 
@@ -133,14 +139,18 @@ conversational_rag_chain = RunnableWithMessageHistory(
 
 
 # response function
+def generate_session_token():
+    return str(uuid.uuid4())
+
 def get_reponse(q):
+     session_token = generate_session_token()
      results = conversational_rag_chain.invoke(
         {
             "input": f"{q}"
         },
         config={
              "configurable": {
-                  "session_id": "abc123"}},) # constructs a key "abc123" in `store`.
+                  "session_id": session_token}},) # constructs a key in `store`.
     
      return results['answer']
     
