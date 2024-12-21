@@ -3,6 +3,7 @@ import os
 import glob
 import uuid
 import datetime
+import time
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  
 from langchain_core.vectorstores import InMemoryVectorStore 
@@ -44,18 +45,47 @@ print(len(docs))
 # set up the LLM
 llm = ChatGroq(
       model="llama3-8b-8192",
-      temperature = 0.5
+      temperature = 0.3
       )
 
 # creating a document retriever
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 splits = text_splitter.split_documents(docs)
-vectorstore = InMemoryVectorStore.from_documents(
-    documents=splits, embedding = CohereEmbeddings(
-        model="embed-english-v3.0",
-        cohere_api_key = cohere
-        )
-)
+
+
+# Step 2: Batch process the document embeddings
+def batch_embed_documents(documents, embedding_model, batch_size=1, delay=1.5):
+    """
+    Embed documents in batches to avoid exceeding API rate limits.
+    
+    :param documents: List of document chunks to embed
+    :param embedding_model: The embedding model instance
+    :param batch_size: Number of documents to process per batch
+    :param delay: Delay (in seconds) between each batch
+    :return: List of embeddings
+    """
+    embeddings = []
+    for i in range(0, len(documents), batch_size):
+        batch = documents[i:i + batch_size]
+        embeddings.extend(embedding_model.embed_documents([doc.page_content for doc in batch]))
+        time.sleep(delay)  # Introduce a delay between batches to respect rate limits
+    return embeddings
+
+# Step 3: Create an instance of the embedding model
+embedding_model = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=cohere)
+
+# Step 4: Embed documents in batches
+embeddings = batch_embed_documents(splits, embedding_model, batch_size=10, delay=1.5)
+
+# Step 5: Create the vectorstore with the precomputed embeddings
+vectorstore = InMemoryVectorStore.from_embeddings(documents=splits, embeddings=embeddings)
+
+# vectorstore = InMemoryVectorStore.from_documents(
+#     documents=splits, embedding = CohereEmbeddings(
+#         model="embed-english-v3.0",
+#         cohere_api_key = cohere
+#         )
+# )
 
 retriever = vectorstore.as_retriever()
 
