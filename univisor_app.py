@@ -6,7 +6,7 @@ import datetime
 import time
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader  
-from langchain_core.vectorstores import InMemoryVectorStore 
+from langchain_core.vectorstores import FAISS 
 from langchain_cohere import CohereEmbeddings 
 from langchain_text_splitters import RecursiveCharacterTextSplitter  
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain 
@@ -78,7 +78,7 @@ embedding_model = CohereEmbeddings(model="embed-english-v3.0", cohere_api_key=co
 embeddings = batch_embed_documents(splits, embedding_model, batch_size=1, delay=4)
 
 # Step 5: Create the vectorstore with the precomputed embeddings
-vectorstore = InMemoryVectorStore.from_embeddings(documents=splits, embeddings=embeddings)
+vectorstore = FAISS.from_documents(documents=splits, embeddings=embeddings)
 
 # vectorstore = InMemoryVectorStore.from_documents(
 #     documents=splits, embedding = CohereEmbeddings(
