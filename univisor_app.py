@@ -26,8 +26,6 @@ token = os.environ.get('BOT_TOKEN')
 groq = os.environ.get('GROQ_API_KEY')
 cohere = os.environ.get('COHERE_API_KEY')
 
-telebot.apihelper.proxy = {'http': 'socks5://208.102.51.6:58208', 'https':'socks5:/208.102.51.6:58208'}
-
 # load reference files (remember to put the mechanism for loading multiple files from a choosen location)
 # file_path = "doc/udsm.pdf"
 # loader = PyPDFLoader(file_path)
