@@ -5,7 +5,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 
 # Load the Base64-encoded credentials
-credentials_base64 = os.getenv("GOOGLE_CRED_BASE64")
+credentials_base64 = os.environ.get("GOOGLE_CRED_BASE64")
 
 if not credentials_base64:
     raise ValueError("Environment variable GOOGLE_CREDENTIALS_BASE64 is not set")
