@@ -56,18 +56,18 @@ splits = text_splitter.split_documents(docs)
 vectorstore = InMemoryVectorStore.from_documents(
     documents=splits, embedding = EdenAiEmbeddings(
          edenai_api_key=eden, 
-         provider="cohere"
+         provider="openai"
          )
 )
 
 retriever = vectorstore.as_retriever()
-print("embdeddings and vectorstore created...")
+print("embeddings and vectorstore created...")
 
 # SETTING UP CONVERSATIONAL MEMORY-------------------------------
 # creating the conversational memory prompt for context provision
 context_prompt = (
     "Given a chat history and the latest user question "
-    "which might reference context in the chat history, "
+    "which reference context in the chat history, "
     "formulate a standalone question which can be understood "
     "without the chat history. Do NOT answer the question, "
     "just reformulate it if it is really needed and otherwise return it as is."
